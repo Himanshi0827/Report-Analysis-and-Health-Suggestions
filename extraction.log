@@ -1,0 +1,1497 @@
+2023-10-14 14:56:19,815 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-10-14 14:56:19,816 - INFO - [33mPress CTRL+C to quit[0m
+2023-10-14 14:56:19,816 - INFO -  * Restarting with stat
+2023-10-14 14:56:21,299 - WARNING -  * Debugger is active!
+2023-10-14 14:56:21,313 - INFO -  * Debugger PIN: 465-510-454
+2023-10-14 15:00:04,789 - INFO - 127.0.0.1 - - [14/Oct/2023 15:00:04] "GET / HTTP/1.1" 200 -
+2023-10-14 15:00:05,208 - INFO - 127.0.0.1 - - [14/Oct/2023 15:00:05] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-10-14 15:02:21,244 - INFO - 127.0.0.1 - - [14/Oct/2023 15:02:21] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2023-10-14 15:02:21,394 - INFO - 127.0.0.1 - - [14/Oct/2023 15:02:21] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2023-10-14 15:02:21,422 - INFO - 127.0.0.1 - - [14/Oct/2023 15:02:21] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2023-10-14 15:02:21,512 - INFO - 127.0.0.1 - - [14/Oct/2023 15:02:21] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2023-10-14 15:02:21,622 - INFO - 127.0.0.1 - - [14/Oct/2023 15:02:21] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-10-14 15:04:32,910 - INFO - Extracted data: {'Hemoglobin': '11.9 g/dl [M', 'White Blood Cell Count': None, 'Total Red Blood cell Count': None, 'Platelet Count': '277000 lac/cmm [1.5 - 4.0 lac/cmm]'}
+2023-10-14 15:04:32,950 - INFO - Data saved to CSV file: uploads\blood_report_blood_test.csv
+2023-10-14 15:04:32,950 - INFO - Conversion Complete - PDF data has been converted and saved to CSV.
+2023-10-14 15:04:32,955 - INFO - 127.0.0.1 - - [14/Oct/2023 15:04:32] "POST / HTTP/1.1" 200 -
+2023-10-14 15:04:35,427 - INFO - 127.0.0.1 - - [14/Oct/2023 15:04:35] "GET / HTTP/1.1" 200 -
+2023-10-14 15:04:38,459 - INFO - Extracted data: {'Hemoglobin': '11.9 g/dl [M', 'White Blood Cell Count': None, 'Total Red Blood cell Count': None, 'Platelet Count': '277000 lac/cmm [1.5 - 4.0 lac/cmm]'}
+2023-10-14 15:04:38,461 - INFO - Data saved to CSV file: uploads\blood_report_blood_test.csv
+2023-10-14 15:04:38,461 - INFO - Conversion Complete - PDF data has been converted and saved to CSV.
+2023-10-14 15:04:38,465 - INFO - 127.0.0.1 - - [14/Oct/2023 15:04:38] "POST / HTTP/1.1" 200 -
+2023-10-14 15:08:16,400 - INFO - 127.0.0.1 - - [14/Oct/2023 15:08:16] "GET / HTTP/1.1" 200 -
+2023-10-14 15:20:48,010 - INFO -  * Detected change in 'e:\\Ronit\\college\\Python\\Himanshi\\terstcsv.py', reloading
+2023-10-14 15:20:48,216 - INFO -  * Restarting with stat
+2023-10-14 15:20:49,856 - WARNING -  * Debugger is active!
+2023-10-14 15:20:49,856 - INFO -  * Debugger PIN: 465-510-454
+2023-10-14 15:21:18,696 - INFO -  * Detected change in 'e:\\Ronit\\college\\Python\\Himanshi\\terstcsv.py', reloading
+2023-10-14 15:21:18,903 - INFO -  * Restarting with stat
+2023-10-14 15:21:20,477 - WARNING -  * Debugger is active!
+2023-10-14 15:21:20,477 - INFO -  * Debugger PIN: 465-510-454
+2023-10-15 16:29:19,353 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-10-15 16:29:19,353 - INFO - [33mPress CTRL+C to quit[0m
+2023-10-15 16:29:19,353 - INFO -  * Restarting with stat
+2023-10-15 16:29:20,220 - WARNING -  * Debugger is active!
+2023-10-15 16:29:20,227 - INFO -  * Debugger PIN: 465-510-454
+2023-10-15 16:29:31,566 - INFO - 127.0.0.1 - - [15/Oct/2023 16:29:31] "GET / HTTP/1.1" 200 -
+2023-10-15 16:29:31,708 - INFO - 127.0.0.1 - - [15/Oct/2023 16:29:31] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-10-15 16:29:40,365 - INFO - Extracted data: {'Hemoglobin': '11.9 g/dl [M', 'White Blood Cell Count': None, 'Total Red Blood cell Count': None, 'Platelet Count': '277000 lac/cmm [1.5 - 4.0 lac/cmm]'}
+2023-10-15 16:29:40,911 - ERROR - PDF extraction error: 'White Blood Cell Count'
+2023-10-15 16:29:40,911 - INFO - Error - An error occurred while processing the PDF.
+2023-10-15 16:29:40,916 - INFO - 127.0.0.1 - - [15/Oct/2023 16:29:40] "POST / HTTP/1.1" 200 -
+2023-10-15 16:30:16,639 - INFO - 127.0.0.1 - - [15/Oct/2023 16:30:16] "GET / HTTP/1.1" 200 -
+2023-10-15 16:30:32,609 - INFO - Extracted data: {'Hemoglobin': '11.9 g/dl [M', 'White Blood Cell Count': None, 'Total Red Blood cell Count': None, 'Platelet Count': '277000 lac/cmm [1.5 - 4.0 lac/cmm]'}
+2023-10-15 16:30:32,609 - ERROR - PDF extraction error: [Errno 2] No such file or directory: 'uploads\\blood_report_blood_test.csv'
+2023-10-15 16:30:32,609 - INFO - Error - An error occurred while processing the PDF.
+2023-10-15 16:30:32,609 - INFO - 127.0.0.1 - - [15/Oct/2023 16:30:32] "POST / HTTP/1.1" 200 -
+2023-10-15 16:31:49,339 - INFO - 127.0.0.1 - - [15/Oct/2023 16:31:49] "GET / HTTP/1.1" 200 -
+2023-10-15 16:34:27,422 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-10-15 16:34:27,422 - INFO - [33mPress CTRL+C to quit[0m
+2023-10-15 16:34:27,423 - INFO -  * Restarting with stat
+2023-10-15 16:34:28,031 - WARNING -  * Debugger is active!
+2023-10-15 16:34:28,032 - INFO -  * Debugger PIN: 465-510-454
+2023-10-15 16:34:33,268 - INFO - 127.0.0.1 - - [15/Oct/2023 16:34:33] "GET / HTTP/1.1" 200 -
+2023-10-15 16:34:40,476 - INFO - Extracted data: {'Hemoglobin': '11.9 g/dl [M', 'White Blood Cell Count': None, 'Total Red Blood cell Count': None, 'Platelet Count': '277000 lac/cmm [1.5 - 4.0 lac/cmm]'}
+2023-10-15 16:34:40,477 - INFO - Data saved to CSV file: uploads\blood_report_blood_test.csv
+2023-10-15 16:34:40,477 - INFO - Conversion Complete - PDF data has been converted and saved to CSV.
+2023-10-15 16:34:40,484 - INFO - 127.0.0.1 - - [15/Oct/2023 16:34:40] "POST / HTTP/1.1" 200 -
+2023-10-15 16:49:10,444 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-10-15 16:49:10,444 - INFO - [33mPress CTRL+C to quit[0m
+2023-10-15 16:49:10,445 - INFO -  * Restarting with stat
+2023-10-15 16:49:11,312 - WARNING -  * Debugger is active!
+2023-10-15 16:49:11,314 - INFO -  * Debugger PIN: 465-510-454
+2023-10-15 16:49:35,892 - INFO - 127.0.0.1 - - [15/Oct/2023 16:49:35] "GET / HTTP/1.1" 200 -
+2023-10-15 16:49:43,273 - INFO - Extracted data: {'Hemoglobin': '11.9 g/dl [M', 'White Blood Cell Count': None, 'Total Red Blood cell Count': None, 'Platelet Count': '277000 lac/cmm [1.5 - 4.0 lac/cmm]'}
+2023-10-15 16:49:43,282 - INFO - Data saved to CSV file: uploads\blood_report_blood_test.csv
+2023-10-15 16:49:43,282 - INFO - Conversion Complete - PDF data has been converted and saved to CSV.
+2023-10-15 16:49:43,282 - INFO - 127.0.0.1 - - [15/Oct/2023 16:49:43] "POST / HTTP/1.1" 200 -
+2023-10-16 10:07:11,644 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-10-16 10:07:11,647 - INFO - [33mPress CTRL+C to quit[0m
+2023-10-16 10:07:11,647 - INFO -  * Restarting with stat
+2023-10-16 10:07:13,974 - WARNING -  * Debugger is active!
+2023-10-16 10:07:13,985 - INFO -  * Debugger PIN: 465-510-454
+2023-10-16 10:07:20,449 - INFO - 127.0.0.1 - - [16/Oct/2023 10:07:20] "GET / HTTP/1.1" 200 -
+2023-10-16 10:07:20,832 - INFO - 127.0.0.1 - - [16/Oct/2023 10:07:20] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-10-16 10:07:29,728 - INFO - Extracted data: {'Hemoglobin': '11.9 g/dl [M', 'White Blood Cell Count': None, 'Total Red Blood cell Count': None, 'Platelet Count': '277000 lac/cmm [1.5 - 4.0 lac/cmm]'}
+2023-10-16 10:07:29,745 - INFO - Data saved to CSV file: uploads\blood_report_blood_test.csv
+2023-10-16 10:07:29,745 - INFO - Conversion Complete - PDF data has been converted and saved to CSV.
+2023-10-16 10:07:29,752 - INFO - 127.0.0.1 - - [16/Oct/2023 10:07:29] "POST / HTTP/1.1" 200 -
+2023-10-16 10:07:29,786 - INFO - 127.0.0.1 - - [16/Oct/2023 10:07:29] "[33mGET /static/Hemoglobin.png HTTP/1.1[0m" 404 -
+2023-10-16 10:07:29,794 - INFO - 127.0.0.1 - - [16/Oct/2023 10:07:29] "[33mGET /static/White%20Blood%20Cell%20Count.png HTTP/1.1[0m" 404 -
+2023-10-16 10:07:29,810 - INFO - 127.0.0.1 - - [16/Oct/2023 10:07:29] "[33mGET /static/Total%20Red%20Blood%20cell%20Count.png HTTP/1.1[0m" 404 -
+2023-10-16 10:07:29,814 - INFO - 127.0.0.1 - - [16/Oct/2023 10:07:29] "[33mGET /static/Platelet%20Count.png HTTP/1.1[0m" 404 -
+2023-10-16 10:07:35,563 - INFO - 127.0.0.1 - - [16/Oct/2023 10:07:35] "[33mGET /uploads/ HTTP/1.1[0m" 404 -
+2023-10-16 10:13:48,450 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-10-16 10:13:48,450 - INFO - [33mPress CTRL+C to quit[0m
+2023-10-16 10:13:48,457 - INFO -  * Restarting with stat
+2023-10-16 10:13:50,460 - WARNING -  * Debugger is active!
+2023-10-16 10:13:50,467 - INFO -  * Debugger PIN: 465-510-454
+2023-10-16 10:14:03,599 - INFO - Extracted data: {'Hemoglobin': '11.9 g/dl [M', 'White Blood Cell Count': None, 'Total Red Blood cell Count': None, 'Platelet Count': '277000 lac/cmm [1.5 - 4.0 lac/cmm]'}
+2023-10-16 10:14:03,605 - INFO - Data saved to CSV file: uploads\blood_report_blood_test.csv
+2023-10-16 10:14:03,605 - INFO - Conversion Complete - PDF data has been converted and saved to CSV.
+2023-10-16 10:14:03,619 - INFO - 127.0.0.1 - - [16/Oct/2023 10:14:03] "POST / HTTP/1.1" 200 -
+2023-10-16 10:14:03,644 - INFO - 127.0.0.1 - - [16/Oct/2023 10:14:03] "[33mGET /static/Hemoglobin.png HTTP/1.1[0m" 404 -
+2023-10-16 10:14:03,658 - INFO - 127.0.0.1 - - [16/Oct/2023 10:14:03] "[33mGET /static/White%20Blood%20Cell%20Count.png HTTP/1.1[0m" 404 -
+2023-10-16 10:14:03,664 - INFO - 127.0.0.1 - - [16/Oct/2023 10:14:03] "[33mGET /static/Total%20Red%20Blood%20cell%20Count.png HTTP/1.1[0m" 404 -
+2023-10-16 10:14:03,675 - INFO - 127.0.0.1 - - [16/Oct/2023 10:14:03] "[33mGET /static/Platelet%20Count.png HTTP/1.1[0m" 404 -
+2023-10-16 10:14:05,847 - INFO - 127.0.0.1 - - [16/Oct/2023 10:14:05] "GET / HTTP/1.1" 200 -
+2023-10-16 10:14:37,527 - INFO - 127.0.0.1 - - [16/Oct/2023 10:14:37] "GET / HTTP/1.1" 200 -
+2023-10-16 10:14:53,018 - INFO - Extracted data: {'Hemoglobin': '11.9 g/dl [M', 'White Blood Cell Count': None, 'Total Red Blood cell Count': None, 'Platelet Count': '277000 lac/cmm [1.5 - 4.0 lac/cmm]'}
+2023-10-16 10:14:53,018 - INFO - Data saved to CSV file: uploads\blood_report_blood_test.csv
+2023-10-16 10:14:53,018 - INFO - Conversion Complete - PDF data has been converted and saved to CSV.
+2023-10-16 10:14:53,032 - INFO - 127.0.0.1 - - [16/Oct/2023 10:14:53] "POST / HTTP/1.1" 200 -
+2023-10-16 10:14:53,064 - INFO - 127.0.0.1 - - [16/Oct/2023 10:14:53] "[33mGET /static/Hemoglobin.png HTTP/1.1[0m" 404 -
+2023-10-16 10:14:53,070 - INFO - 127.0.0.1 - - [16/Oct/2023 10:14:53] "[33mGET /static/White%20Blood%20Cell%20Count.png HTTP/1.1[0m" 404 -
+2023-10-16 10:14:53,084 - INFO - 127.0.0.1 - - [16/Oct/2023 10:14:53] "[33mGET /static/Total%20Red%20Blood%20cell%20Count.png HTTP/1.1[0m" 404 -
+2023-10-16 10:14:53,088 - INFO - 127.0.0.1 - - [16/Oct/2023 10:14:53] "[33mGET /static/Platelet%20Count.png HTTP/1.1[0m" 404 -
+2023-10-16 10:14:55,765 - INFO - 127.0.0.1 - - [16/Oct/2023 10:14:55] "[33mGET /uploads/ HTTP/1.1[0m" 404 -
+2023-10-16 10:15:05,386 - INFO - 127.0.0.1 - - [16/Oct/2023 10:15:05] "[33mGET /uploads/ HTTP/1.1[0m" 404 -
+2023-10-16 10:15:39,054 - INFO - 127.0.0.1 - - [16/Oct/2023 10:15:39] "[33mGET /uploads/ HTTP/1.1[0m" 404 -
+2023-10-16 10:20:56,773 - INFO -  * Detected change in 'e:\\Ronit\\college\\Python\\Himanshi\\app.py', reloading
+2023-10-16 10:20:57,061 - INFO -  * Restarting with stat
+2023-10-16 10:21:12,213 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-10-16 10:21:12,213 - INFO - [33mPress CTRL+C to quit[0m
+2023-10-16 10:21:12,216 - INFO -  * Restarting with stat
+2023-10-16 10:21:14,334 - WARNING -  * Debugger is active!
+2023-10-16 10:21:14,337 - INFO -  * Debugger PIN: 465-510-454
+2023-10-16 10:21:19,512 - INFO - 127.0.0.1 - - [16/Oct/2023 10:21:19] "GET / HTTP/1.1" 200 -
+2023-10-16 10:21:22,053 - INFO - 127.0.0.1 - - [16/Oct/2023 10:21:22] "GET / HTTP/1.1" 200 -
+2023-10-16 10:21:23,866 - INFO - 127.0.0.1 - - [16/Oct/2023 10:21:23] "GET / HTTP/1.1" 200 -
+2023-10-16 10:21:24,421 - INFO - 127.0.0.1 - - [16/Oct/2023 10:21:24] "GET / HTTP/1.1" 200 -
+2023-10-16 10:21:36,225 - INFO - Extracted data: {'Hemoglobin': '11.9', 'White Blood Cell Count': None, 'Total Red Blood cell Count': None, 'Platelet Count': '277000 lac/cmm [1.5 - 4.0 lac/cmm]'}
+2023-10-16 10:21:36,225 - INFO - Data saved to CSV file: uploads\blood_report_blood_test.csv
+2023-10-16 10:21:36,225 - INFO - Conversion Complete - PDF data has been converted and saved to CSV.
+2023-10-16 10:21:36,245 - INFO - 127.0.0.1 - - [16/Oct/2023 10:21:36] "POST / HTTP/1.1" 200 -
+2023-10-16 10:21:36,279 - INFO - 127.0.0.1 - - [16/Oct/2023 10:21:36] "[33mGET /static/Hemoglobin.png HTTP/1.1[0m" 404 -
+2023-10-16 10:21:36,290 - INFO - 127.0.0.1 - - [16/Oct/2023 10:21:36] "[33mGET /static/White%20Blood%20Cell%20Count.png HTTP/1.1[0m" 404 -
+2023-10-16 10:21:36,306 - INFO - 127.0.0.1 - - [16/Oct/2023 10:21:36] "[33mGET /static/Platelet%20Count.png HTTP/1.1[0m" 404 -
+2023-10-16 10:21:36,315 - INFO - 127.0.0.1 - - [16/Oct/2023 10:21:36] "[33mGET /static/Total%20Red%20Blood%20cell%20Count.png HTTP/1.1[0m" 404 -
+2023-10-16 10:21:40,524 - INFO - 127.0.0.1 - - [16/Oct/2023 10:21:40] "[33mGET /uploads/ HTTP/1.1[0m" 404 -
+2023-10-16 10:21:42,307 - INFO - 127.0.0.1 - - [16/Oct/2023 10:21:42] "[33mGET /uploads/ HTTP/1.1[0m" 404 -
+2023-10-16 10:23:42,541 - INFO -  * Detected change in 'e:\\Ronit\\college\\Python\\Himanshi\\app.py', reloading
+2023-10-16 10:23:42,853 - INFO -  * Restarting with stat
+2023-10-16 10:23:45,185 - WARNING -  * Debugger is active!
+2023-10-16 10:23:45,190 - INFO -  * Debugger PIN: 465-510-454
+2023-10-16 10:24:48,326 - INFO -  * Detected change in 'e:\\Ronit\\college\\Python\\Himanshi\\app.py', reloading
+2023-10-16 10:24:48,596 - INFO -  * Restarting with stat
+2023-10-16 10:24:51,048 - WARNING -  * Debugger is active!
+2023-10-16 10:24:51,051 - INFO -  * Debugger PIN: 465-510-454
+2023-10-16 10:25:13,877 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-10-16 10:25:13,877 - INFO - [33mPress CTRL+C to quit[0m
+2023-10-16 10:25:13,878 - INFO -  * Restarting with stat
+2023-10-16 10:25:15,953 - WARNING -  * Debugger is active!
+2023-10-16 10:25:15,955 - INFO -  * Debugger PIN: 465-510-454
+2023-10-16 10:25:22,298 - INFO - 127.0.0.1 - - [16/Oct/2023 10:25:22] "GET / HTTP/1.1" 200 -
+2023-10-16 10:25:26,671 - INFO - Extracted data: {'Hemoglobin': '11.9', 'White Blood Cell Count': None, 'Total Red Blood cell Count': None, 'Platelet Count': '277000 lac/cmm [1.5 - 4.0 lac/cmm]'}
+2023-10-16 10:25:26,681 - INFO - Data saved to CSV file: uploads\blood_report_blood_test.csv
+2023-10-16 10:25:26,681 - INFO - Conversion Complete - PDF data has been converted and saved to CSV.
+2023-10-16 10:25:26,684 - ERROR - PDF extraction error: [Errno 2] No such file or directory: 'uploads\\uploads\\blood_report_blood_test.csv'
+2023-10-16 10:25:26,684 - INFO - Error - An error occurred while processing the PDF.
+2023-10-16 10:25:26,694 - INFO - 127.0.0.1 - - [16/Oct/2023 10:25:26] "POST / HTTP/1.1" 200 -
+2023-10-16 10:25:26,725 - INFO - 127.0.0.1 - - [16/Oct/2023 10:25:26] "[33mGET /static/Hemoglobin.png HTTP/1.1[0m" 404 -
+2023-10-16 10:25:26,733 - INFO - 127.0.0.1 - - [16/Oct/2023 10:25:26] "[33mGET /static/White%20Blood%20Cell%20Count.png HTTP/1.1[0m" 404 -
+2023-10-16 10:25:26,749 - INFO - 127.0.0.1 - - [16/Oct/2023 10:25:26] "[33mGET /static/Total%20Red%20Blood%20cell%20Count.png HTTP/1.1[0m" 404 -
+2023-10-16 10:25:26,753 - INFO - 127.0.0.1 - - [16/Oct/2023 10:25:26] "[33mGET /static/Platelet%20Count.png HTTP/1.1[0m" 404 -
+2023-10-16 10:25:40,373 - INFO - Extracted data: {'Hemoglobin': '11.9', 'White Blood Cell Count': None, 'Total Red Blood cell Count': None, 'Platelet Count': '277000 lac/cmm [1.5 - 4.0 lac/cmm]'}
+2023-10-16 10:25:40,373 - INFO - Data saved to CSV file: uploads\blood_report_blood_test.csv
+2023-10-16 10:25:40,373 - INFO - Conversion Complete - PDF data has been converted and saved to CSV.
+2023-10-16 10:25:40,373 - ERROR - PDF extraction error: [Errno 2] No such file or directory: 'uploads\\uploads\\blood_report_blood_test.csv'
+2023-10-16 10:25:40,373 - INFO - Error - An error occurred while processing the PDF.
+2023-10-16 10:25:40,378 - INFO - 127.0.0.1 - - [16/Oct/2023 10:25:40] "POST / HTTP/1.1" 200 -
+2023-10-16 10:25:40,402 - INFO - 127.0.0.1 - - [16/Oct/2023 10:25:40] "[33mGET /static/Hemoglobin.png HTTP/1.1[0m" 404 -
+2023-10-16 10:25:40,405 - INFO - 127.0.0.1 - - [16/Oct/2023 10:25:40] "[33mGET /static/White%20Blood%20Cell%20Count.png HTTP/1.1[0m" 404 -
+2023-10-16 10:25:40,418 - INFO - 127.0.0.1 - - [16/Oct/2023 10:25:40] "[33mGET /static/Total%20Red%20Blood%20cell%20Count.png HTTP/1.1[0m" 404 -
+2023-10-16 10:25:40,422 - INFO - 127.0.0.1 - - [16/Oct/2023 10:25:40] "[33mGET /static/Platelet%20Count.png HTTP/1.1[0m" 404 -
+2023-10-16 10:26:13,014 - INFO - 127.0.0.1 - - [16/Oct/2023 10:26:13] "GET / HTTP/1.1" 200 -
+2023-10-16 10:26:21,841 - INFO - Extracted data: {'Hemoglobin': '11.9', 'White Blood Cell Count': None, 'Total Red Blood cell Count': None, 'Platelet Count': '277000 lac/cmm [1.5 - 4.0 lac/cmm]'}
+2023-10-16 10:26:21,841 - INFO - Data saved to CSV file: uploads\blood_report_blood_test.csv
+2023-10-16 10:26:21,841 - INFO - Conversion Complete - PDF data has been converted and saved to CSV.
+2023-10-16 10:26:21,841 - ERROR - PDF extraction error: [Errno 2] No such file or directory: 'uploads\\uploads\\blood_report_blood_test.csv'
+2023-10-16 10:26:21,846 - INFO - Error - An error occurred while processing the PDF.
+2023-10-16 10:26:21,847 - INFO - 127.0.0.1 - - [16/Oct/2023 10:26:21] "POST / HTTP/1.1" 200 -
+2023-10-16 10:26:21,865 - INFO - 127.0.0.1 - - [16/Oct/2023 10:26:21] "[33mGET /static/White%20Blood%20Cell%20Count.png HTTP/1.1[0m" 404 -
+2023-10-16 10:26:21,865 - INFO - 127.0.0.1 - - [16/Oct/2023 10:26:21] "[33mGET /static/Hemoglobin.png HTTP/1.1[0m" 404 -
+2023-10-16 10:26:21,886 - INFO - 127.0.0.1 - - [16/Oct/2023 10:26:21] "[33mGET /static/Total%20Red%20Blood%20cell%20Count.png HTTP/1.1[0m" 404 -
+2023-10-16 10:26:21,890 - INFO - 127.0.0.1 - - [16/Oct/2023 10:26:21] "[33mGET /static/Platelet%20Count.png HTTP/1.1[0m" 404 -
+2023-10-16 10:28:34,132 - INFO -  * Detected change in 'e:\\Ronit\\college\\Python\\Himanshi\\app.py', reloading
+2023-10-16 10:28:34,445 - INFO -  * Restarting with stat
+2023-10-16 10:28:39,785 - WARNING -  * Debugger is active!
+2023-10-16 10:28:39,785 - INFO -  * Debugger PIN: 465-510-454
+2023-10-16 10:28:40,126 - INFO - 127.0.0.1 - - [16/Oct/2023 10:28:40] "GET / HTTP/1.1" 200 -
+2023-10-16 10:28:41,106 - INFO - 127.0.0.1 - - [16/Oct/2023 10:28:41] "GET / HTTP/1.1" 200 -
+2023-10-16 10:28:41,277 - INFO - 127.0.0.1 - - [16/Oct/2023 10:28:41] "GET / HTTP/1.1" 200 -
+2023-10-16 10:28:41,442 - INFO - 127.0.0.1 - - [16/Oct/2023 10:28:41] "GET / HTTP/1.1" 200 -
+2023-10-16 10:28:41,600 - INFO - 127.0.0.1 - - [16/Oct/2023 10:28:41] "GET / HTTP/1.1" 200 -
+2023-10-16 10:28:41,751 - INFO - 127.0.0.1 - - [16/Oct/2023 10:28:41] "GET / HTTP/1.1" 200 -
+2023-10-16 10:28:41,911 - INFO - 127.0.0.1 - - [16/Oct/2023 10:28:41] "GET / HTTP/1.1" 200 -
+2023-10-16 10:28:42,043 - INFO - 127.0.0.1 - - [16/Oct/2023 10:28:42] "GET / HTTP/1.1" 200 -
+2023-10-16 10:28:42,180 - INFO - 127.0.0.1 - - [16/Oct/2023 10:28:42] "GET / HTTP/1.1" 200 -
+2023-10-16 10:28:52,398 - INFO - Extracted data: {'Hemoglobin': '11.9', 'White Blood Cell Count': None, 'Total Red Blood cell Count': None, 'Platelet Count': '277000 lac/cmm [1.5 - 4.0 lac/cmm]'}
+2023-10-16 10:28:52,398 - INFO - Data saved to CSV file: uploads\blood_report_blood_test.csv
+2023-10-16 10:28:52,398 - INFO - Conversion Complete - PDF data has been converted and saved to CSV.
+2023-10-16 10:28:52,481 - INFO - 127.0.0.1 - - [16/Oct/2023 10:28:52] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2023-10-16 10:28:52,654 - INFO - 127.0.0.1 - - [16/Oct/2023 10:28:52] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-10-16 10:28:52,664 - INFO - 127.0.0.1 - - [16/Oct/2023 10:28:52] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-10-16 10:28:52,743 - INFO - 127.0.0.1 - - [16/Oct/2023 10:28:52] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-10-16 10:28:52,852 - INFO - 127.0.0.1 - - [16/Oct/2023 10:28:52] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-10-16 10:31:04,981 - INFO -  * Detected change in 'e:\\Ronit\\college\\Python\\Himanshi\\app.py', reloading
+2023-10-16 10:31:05,279 - INFO -  * Restarting with stat
+2023-10-16 10:31:07,534 - WARNING -  * Debugger is active!
+2023-10-16 10:31:07,536 - INFO -  * Debugger PIN: 465-510-454
+2023-10-16 10:31:18,308 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-10-16 10:31:18,308 - INFO - [33mPress CTRL+C to quit[0m
+2023-10-16 10:31:18,308 - INFO -  * Restarting with stat
+2023-10-16 10:31:20,507 - WARNING -  * Debugger is active!
+2023-10-16 10:31:20,512 - INFO -  * Debugger PIN: 465-510-454
+2023-10-16 10:31:26,197 - INFO - 127.0.0.1 - - [16/Oct/2023 10:31:26] "GET / HTTP/1.1" 200 -
+2023-10-16 10:31:26,359 - INFO - 127.0.0.1 - - [16/Oct/2023 10:31:26] "GET / HTTP/1.1" 200 -
+2023-10-16 10:31:26,525 - INFO - 127.0.0.1 - - [16/Oct/2023 10:31:26] "GET / HTTP/1.1" 200 -
+2023-10-16 10:31:26,668 - INFO - 127.0.0.1 - - [16/Oct/2023 10:31:26] "GET / HTTP/1.1" 200 -
+2023-10-16 10:31:26,819 - INFO - 127.0.0.1 - - [16/Oct/2023 10:31:26] "GET / HTTP/1.1" 200 -
+2023-10-16 10:31:26,960 - INFO - 127.0.0.1 - - [16/Oct/2023 10:31:26] "GET / HTTP/1.1" 200 -
+2023-10-16 10:31:27,105 - INFO - 127.0.0.1 - - [16/Oct/2023 10:31:27] "GET / HTTP/1.1" 200 -
+2023-10-16 10:31:27,241 - INFO - 127.0.0.1 - - [16/Oct/2023 10:31:27] "GET / HTTP/1.1" 200 -
+2023-10-16 10:31:27,397 - INFO - 127.0.0.1 - - [16/Oct/2023 10:31:27] "GET / HTTP/1.1" 200 -
+2023-10-16 10:31:27,557 - INFO - 127.0.0.1 - - [16/Oct/2023 10:31:27] "GET / HTTP/1.1" 200 -
+2023-10-16 10:31:27,811 - INFO - 127.0.0.1 - - [16/Oct/2023 10:31:27] "GET / HTTP/1.1" 200 -
+2023-10-16 10:31:27,961 - INFO - 127.0.0.1 - - [16/Oct/2023 10:31:27] "GET / HTTP/1.1" 200 -
+2023-10-16 10:31:28,174 - INFO - 127.0.0.1 - - [16/Oct/2023 10:31:28] "GET / HTTP/1.1" 200 -
+2023-10-16 10:31:38,304 - INFO - Extracted data: {'Hemoglobin': '11.9', 'White Blood Cell Count': None, 'Total Red Blood cell Count': None, 'Platelet Count': '277000 lac/cmm [1.5 - 4.0 lac/cmm]'}
+2023-10-16 10:31:38,312 - INFO - Data saved to CSV file: uploads\blood_report_blood_test.csv
+2023-10-16 10:31:38,312 - INFO - Conversion Complete - PDF data has been converted and saved to CSV.
+2023-10-16 10:31:38,336 - INFO - 127.0.0.1 - - [16/Oct/2023 10:31:38] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2023-10-16 10:31:38,481 - INFO - 127.0.0.1 - - [16/Oct/2023 10:31:38] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-10-16 10:31:38,489 - INFO - 127.0.0.1 - - [16/Oct/2023 10:31:38] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-10-16 10:31:38,518 - INFO - 127.0.0.1 - - [16/Oct/2023 10:31:38] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-10-16 10:31:38,641 - INFO - 127.0.0.1 - - [16/Oct/2023 10:31:38] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-10-16 10:31:49,982 - INFO - Extracted data: {'Hemoglobin': '11.9', 'White Blood Cell Count': None, 'Total Red Blood cell Count': None, 'Platelet Count': '277000 lac/cmm [1.5 - 4.0 lac/cmm]'}
+2023-10-16 10:31:49,982 - INFO - Data saved to CSV file: uploads\blood_report_blood_test.csv
+2023-10-16 10:31:49,982 - INFO - Conversion Complete - PDF data has been converted and saved to CSV.
+2023-10-16 10:31:50,003 - INFO - 127.0.0.1 - - [16/Oct/2023 10:31:50] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2023-10-16 10:31:50,046 - INFO - 127.0.0.1 - - [16/Oct/2023 10:31:50] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-10-16 10:31:50,046 - INFO - 127.0.0.1 - - [16/Oct/2023 10:31:50] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-10-16 10:31:50,089 - INFO - 127.0.0.1 - - [16/Oct/2023 10:31:50] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-10-16 10:31:50,203 - INFO - 127.0.0.1 - - [16/Oct/2023 10:31:50] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-10-16 10:32:25,096 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-10-16 10:32:25,096 - INFO - [33mPress CTRL+C to quit[0m
+2023-10-16 10:32:25,102 - INFO -  * Restarting with stat
+2023-10-16 10:32:27,288 - WARNING -  * Debugger is active!
+2023-10-16 10:32:27,289 - INFO -  * Debugger PIN: 465-510-454
+2023-10-16 10:33:04,280 - INFO - 127.0.0.1 - - [16/Oct/2023 10:33:04] "GET / HTTP/1.1" 200 -
+2023-10-16 10:33:22,225 - INFO - Extracted data: {'Hemoglobin': '11.9', 'White Blood Cell Count': None, 'Total Red Blood cell Count': None, 'Platelet Count': '277000 lac/cmm [1.5 - 4.0 lac/cmm]'}
+2023-10-16 10:33:22,232 - INFO - Data saved to CSV file: uploads\blood_report_blood_test.csv
+2023-10-16 10:33:22,233 - INFO - Conversion Complete - PDF data has been converted and saved to CSV.
+2023-10-16 10:33:22,253 - INFO - 127.0.0.1 - - [16/Oct/2023 10:33:22] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2023-10-16 10:33:22,384 - INFO - 127.0.0.1 - - [16/Oct/2023 10:33:22] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-10-16 10:33:22,392 - INFO - 127.0.0.1 - - [16/Oct/2023 10:33:22] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-10-16 10:33:22,472 - INFO - 127.0.0.1 - - [16/Oct/2023 10:33:22] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-10-16 10:33:22,587 - INFO - 127.0.0.1 - - [16/Oct/2023 10:33:22] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-10-16 10:34:34,087 - INFO -  * Detected change in 'e:\\Ronit\\college\\Python\\Himanshi\\app.py', reloading
+2023-10-16 10:34:34,382 - INFO -  * Restarting with stat
+2023-10-16 10:34:36,918 - WARNING -  * Debugger is active!
+2023-10-16 10:34:36,923 - INFO -  * Debugger PIN: 465-510-454
+2023-10-16 10:34:41,177 - INFO - Extracted data: {'Hemoglobin': '11.9', 'White Blood Cell Count': None, 'Total Red Blood cell Count': None, 'Platelet Count': '277000 lac/cmm [1.5 - 4.0 lac/cmm]'}
+2023-10-16 10:34:41,184 - INFO - Data saved to CSV file: uploads\blood_report_blood_test.csv
+2023-10-16 10:34:41,185 - INFO - Conversion Complete - PDF data has been converted and saved to CSV.
+2023-10-16 10:34:42,673 - INFO - 127.0.0.1 - - [16/Oct/2023 10:34:42] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2023-10-16 10:34:42,794 - INFO - 127.0.0.1 - - [16/Oct/2023 10:34:42] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-10-16 10:34:42,816 - INFO - 127.0.0.1 - - [16/Oct/2023 10:34:42] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-10-16 10:34:42,846 - INFO - 127.0.0.1 - - [16/Oct/2023 10:34:42] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-10-16 10:34:42,950 - INFO - 127.0.0.1 - - [16/Oct/2023 10:34:42] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-10-16 10:40:31,370 - INFO -  * Detected change in 'e:\\Ronit\\college\\Python\\Himanshi\\app.py', reloading
+2023-10-16 10:40:32,884 - INFO -  * Restarting with stat
+2023-10-16 10:40:35,168 - WARNING -  * Debugger is active!
+2023-10-16 10:40:35,171 - INFO -  * Debugger PIN: 465-510-454
+2023-10-16 10:40:49,200 - INFO -  * Detected change in 'e:\\Ronit\\college\\Python\\Himanshi\\app.py', reloading
+2023-10-16 10:40:49,544 - INFO -  * Restarting with stat
+2023-10-16 10:40:51,949 - WARNING -  * Debugger is active!
+2023-10-16 10:40:51,953 - INFO -  * Debugger PIN: 465-510-454
+2023-10-16 10:41:19,544 - INFO -  * Detected change in 'e:\\Ronit\\college\\Python\\Himanshi\\app.py', reloading
+2023-10-16 10:41:19,863 - INFO -  * Restarting with stat
+2023-10-16 10:41:22,185 - WARNING -  * Debugger is active!
+2023-10-16 10:41:22,189 - INFO -  * Debugger PIN: 465-510-454
+2023-10-16 10:41:35,551 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-10-16 10:41:35,551 - INFO - [33mPress CTRL+C to quit[0m
+2023-10-16 10:41:35,559 - INFO -  * Restarting with stat
+2023-10-16 10:41:37,969 - WARNING -  * Debugger is active!
+2023-10-16 10:41:37,973 - INFO -  * Debugger PIN: 465-510-454
+2023-10-16 10:41:42,058 - INFO - 127.0.0.1 - - [16/Oct/2023 10:41:42] "GET / HTTP/1.1" 200 -
+2023-10-16 10:41:49,552 - INFO - Extracted data: {'Hemoglobin': '11.9', 'White Blood Cell Count': None, 'Total Red Blood cell Count': None, 'Platelet Count': '277000 lac/cmm [1.5 - 4.0 lac/cmm]'}
+2023-10-16 10:41:49,564 - INFO - Data saved to CSV file: uploads\blood_report_blood_test.csv
+2023-10-16 10:41:49,564 - INFO - Conversion Complete - PDF data has been converted and saved to CSV.
+2023-10-16 10:41:51,082 - INFO - 127.0.0.1 - - [16/Oct/2023 10:41:51] "POST / HTTP/1.1" 200 -
+2023-10-16 10:41:51,269 - INFO - 127.0.0.1 - - [16/Oct/2023 10:41:51] "GET /static/White%20Blood%20Cell%20Count.png HTTP/1.1" 200 -
+2023-10-16 10:41:51,274 - INFO - 127.0.0.1 - - [16/Oct/2023 10:41:51] "GET /static/Hemoglobin.png HTTP/1.1" 200 -
+2023-10-16 10:41:51,304 - INFO - 127.0.0.1 - - [16/Oct/2023 10:41:51] "GET /static/Platelet%20Count.png HTTP/1.1" 200 -
+2023-10-16 10:41:51,319 - INFO - 127.0.0.1 - - [16/Oct/2023 10:41:51] "GET /static/Total%20Red%20Blood%20cell%20Count.png HTTP/1.1" 200 -
+2023-10-16 10:42:10,436 - INFO - 127.0.0.1 - - [16/Oct/2023 10:42:10] "[33mGET /uploads/ HTTP/1.1[0m" 404 -
+2023-10-19 09:42:28,699 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-10-19 09:42:28,699 - INFO - [33mPress CTRL+C to quit[0m
+2023-10-19 09:42:28,699 - INFO -  * Restarting with stat
+2023-10-19 09:42:31,195 - WARNING -  * Debugger is active!
+2023-10-19 09:42:31,211 - INFO -  * Debugger PIN: 690-219-022
+2023-10-19 09:42:58,563 - INFO - 127.0.0.1 - - [19/Oct/2023 09:42:58] "GET / HTTP/1.1" 200 -
+2023-10-19 09:43:08,777 - INFO - Extracted data: {'Hemoglobin': '11.9', 'White Blood Cell Count': None, 'Total Red Blood cell Count': None, 'Platelet Count': '277000 lac/cmm [1.5 - 4.0 lac/cmm]'}
+2023-10-19 09:43:08,800 - INFO - Data saved to CSV file: uploads\blood_report_blood_test.csv
+2023-10-19 09:43:08,808 - INFO - Conversion Complete - PDF data has been converted and saved to CSV.
+2023-10-19 09:43:11,929 - INFO - Extracted data: {'Hemoglobin': '11.9', 'White Blood Cell Count': None, 'Total Red Blood cell Count': None, 'Platelet Count': '277000 lac/cmm [1.5 - 4.0 lac/cmm]'}
+2023-10-19 09:43:11,936 - INFO - Data saved to CSV file: uploads\blood_report_blood_test.csv
+2023-10-19 09:43:11,936 - INFO - Conversion Complete - PDF data has been converted and saved to CSV.
+2023-10-19 09:43:14,058 - INFO - 127.0.0.1 - - [19/Oct/2023 09:43:14] "POST / HTTP/1.1" 200 -
+2023-10-19 09:43:15,322 - INFO - 127.0.0.1 - - [19/Oct/2023 09:43:15] "POST / HTTP/1.1" 200 -
+2023-10-19 09:43:15,572 - INFO - 127.0.0.1 - - [19/Oct/2023 09:43:15] "GET /static/Hemoglobin.png HTTP/1.1" 200 -
+2023-10-19 09:43:15,572 - INFO - 127.0.0.1 - - [19/Oct/2023 09:43:15] "GET /static/White%20Blood%20Cell%20Count.png HTTP/1.1" 200 -
+2023-10-19 09:43:15,672 - INFO - 127.0.0.1 - - [19/Oct/2023 09:43:15] "GET /static/Platelet%20Count.png HTTP/1.1" 200 -
+2023-10-19 09:43:15,672 - INFO - 127.0.0.1 - - [19/Oct/2023 09:43:15] "GET /static/Total%20Red%20Blood%20cell%20Count.png HTTP/1.1" 200 -
+2023-10-19 09:44:21,272 - INFO - 127.0.0.1 - - [19/Oct/2023 09:44:21] "GET / HTTP/1.1" 200 -
+2023-10-19 09:44:32,126 - INFO - Extracted data: {'Hemoglobin': '11.9', 'White Blood Cell Count': None, 'Total Red Blood cell Count': None, 'Platelet Count': '277000 lac/cmm [1.5 - 4.0 lac/cmm]'}
+2023-10-19 09:44:32,128 - INFO - Data saved to CSV file: uploads\blood_report_blood_test.csv
+2023-10-19 09:44:32,128 - INFO - Conversion Complete - PDF data has been converted and saved to CSV.
+2023-10-19 09:44:34,456 - INFO - Extracted data: {'Hemoglobin': '11.9', 'White Blood Cell Count': None, 'Total Red Blood cell Count': None, 'Platelet Count': '277000 lac/cmm [1.5 - 4.0 lac/cmm]'}
+2023-10-19 09:44:34,462 - INFO - Data saved to CSV file: uploads\blood_report_blood_test.csv
+2023-10-19 09:44:34,462 - INFO - Conversion Complete - PDF data has been converted and saved to CSV.
+2023-10-19 09:44:38,384 - INFO - Extracted data: {'Hemoglobin': '11.9', 'White Blood Cell Count': None, 'Total Red Blood cell Count': None, 'Platelet Count': '277000 lac/cmm [1.5 - 4.0 lac/cmm]'}
+2023-10-19 09:44:38,387 - INFO - Data saved to CSV file: uploads\blood_report_blood_test.csv
+2023-10-19 09:44:38,387 - INFO - Conversion Complete - PDF data has been converted and saved to CSV.
+2023-10-19 09:44:40,873 - INFO - Extracted data: {'Hemoglobin': '11.9', 'White Blood Cell Count': None, 'Total Red Blood cell Count': None, 'Platelet Count': '277000 lac/cmm [1.5 - 4.0 lac/cmm]'}
+2023-10-19 09:44:40,884 - INFO - Data saved to CSV file: uploads\blood_report_blood_test.csv
+2023-10-19 09:44:40,884 - INFO - Conversion Complete - PDF data has been converted and saved to CSV.
+2023-10-19 09:44:41,872 - INFO - 127.0.0.1 - - [19/Oct/2023 09:44:41] "POST / HTTP/1.1" 200 -
+2023-10-19 09:44:45,939 - INFO - 127.0.0.1 - - [19/Oct/2023 09:44:45] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2023-10-19 09:44:46,985 - INFO - 127.0.0.1 - - [19/Oct/2023 09:44:46] "POST / HTTP/1.1" 200 -
+2023-10-19 09:44:47,260 - INFO - 127.0.0.1 - - [19/Oct/2023 09:44:47] "POST / HTTP/1.1" 200 -
+2023-10-19 09:44:54,908 - INFO - Extracted data: {'Hemoglobin': '11.9', 'White Blood Cell Count': None, 'Total Red Blood cell Count': None, 'Platelet Count': '277000 lac/cmm [1.5 - 4.0 lac/cmm]'}
+2023-10-19 09:44:54,924 - INFO - Data saved to CSV file: uploads\blood_report_blood_test.csv
+2023-10-19 09:44:54,924 - INFO - Conversion Complete - PDF data has been converted and saved to CSV.
+2023-10-19 09:44:58,048 - INFO - 127.0.0.1 - - [19/Oct/2023 09:44:58] "POST / HTTP/1.1" 200 -
+2023-10-19 09:44:58,118 - INFO - 127.0.0.1 - - [19/Oct/2023 09:44:58] "GET /static/Hemoglobin.png HTTP/1.1" 200 -
+2023-10-19 09:44:58,128 - INFO - 127.0.0.1 - - [19/Oct/2023 09:44:58] "GET /static/White%20Blood%20Cell%20Count.png HTTP/1.1" 200 -
+2023-10-19 09:44:58,277 - INFO - 127.0.0.1 - - [19/Oct/2023 09:44:58] "GET /static/Total%20Red%20Blood%20cell%20Count.png HTTP/1.1" 200 -
+2023-10-19 09:44:58,282 - INFO - 127.0.0.1 - - [19/Oct/2023 09:44:58] "GET /static/Platelet%20Count.png HTTP/1.1" 200 -
+2023-10-19 09:54:45,712 - INFO -  * Detected change in 'd:\\data\\sem5\\python\\himanshi\\app.py', reloading
+2023-10-19 09:54:47,775 - INFO -  * Restarting with stat
+2023-10-19 09:54:50,338 - WARNING -  * Debugger is active!
+2023-10-19 09:54:50,338 - INFO -  * Debugger PIN: 690-219-022
+2023-10-19 09:59:42,319 - INFO -  * Detected change in 'd:\\data\\sem5\\python\\himanshi\\app.py', reloading
+2023-10-19 09:59:42,915 - INFO -  * Restarting with stat
+2023-10-19 10:00:31,321 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-10-19 10:00:31,321 - INFO - [33mPress CTRL+C to quit[0m
+2023-10-19 10:00:31,330 - INFO -  * Restarting with stat
+2023-10-19 10:00:35,081 - WARNING -  * Debugger is active!
+2023-10-19 10:00:35,088 - INFO -  * Debugger PIN: 690-219-022
+2023-10-19 10:01:12,805 - INFO - 127.0.0.1 - - [19/Oct/2023 10:01:12] "GET / HTTP/1.1" 200 -
+2023-10-19 10:01:21,797 - INFO - Extracted data: {'Hemoglobin': '11.9', 'White Blood Cell Count': None, 'Total Red Blood cell Count': None, 'Platelet Count': '277000 lac/cmm [1.5 - 4.0 lac/cmm]'}
+2023-10-19 10:01:21,797 - ERROR - PDF extraction error: float() argument must be a string or a real number, not 'NoneType'
+2023-10-19 10:01:21,797 - INFO - Error - An error occurred while processing the PDF.
+2023-10-19 10:01:21,815 - INFO - 127.0.0.1 - - [19/Oct/2023 10:01:21] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2023-10-19 10:01:22,168 - INFO - 127.0.0.1 - - [19/Oct/2023 10:01:22] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-10-19 10:01:22,172 - INFO - 127.0.0.1 - - [19/Oct/2023 10:01:22] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-10-19 10:01:22,377 - INFO - 127.0.0.1 - - [19/Oct/2023 10:01:22] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-10-19 10:01:22,435 - INFO - 127.0.0.1 - - [19/Oct/2023 10:01:22] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-10-19 10:02:10,674 - INFO - Extracted data: {'Hemoglobin': '11.9', 'White Blood Cell Count': None, 'Total Red Blood cell Count': None, 'Platelet Count': '277000 lac/cmm [1.5 - 4.0 lac/cmm]'}
+2023-10-19 10:02:10,674 - ERROR - PDF extraction error: float() argument must be a string or a real number, not 'NoneType'
+2023-10-19 10:02:10,674 - INFO - Error - An error occurred while processing the PDF.
+2023-10-19 10:02:10,680 - INFO - 127.0.0.1 - - [19/Oct/2023 10:02:10] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2023-10-19 10:02:10,724 - INFO - 127.0.0.1 - - [19/Oct/2023 10:02:10] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-10-19 10:02:10,741 - INFO - 127.0.0.1 - - [19/Oct/2023 10:02:10] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-10-19 10:02:10,907 - INFO - 127.0.0.1 - - [19/Oct/2023 10:02:10] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-10-19 10:02:10,944 - INFO - 127.0.0.1 - - [19/Oct/2023 10:02:10] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-10-19 10:12:01,337 - INFO -  * Detected change in 'd:\\data\\sem5\\python\\himanshi\\app.py', reloading
+2023-10-19 10:12:01,853 - INFO -  * Restarting with stat
+2023-10-19 10:12:04,268 - WARNING -  * Debugger is active!
+2023-10-19 10:12:04,269 - INFO -  * Debugger PIN: 690-219-022
+2023-10-19 10:25:16,672 - INFO -  * Detected change in 'd:\\data\\sem5\\python\\himanshi\\app.py', reloading
+2023-10-19 10:25:16,933 - INFO -  * Restarting with stat
+2023-10-19 10:25:19,480 - WARNING -  * Debugger is active!
+2023-10-19 10:25:19,482 - INFO -  * Debugger PIN: 690-219-022
+2023-10-19 10:33:57,856 - INFO -  * Detected change in 'd:\\data\\sem5\\python\\himanshi\\app.py', reloading
+2023-10-19 10:33:58,076 - INFO -  * Restarting with stat
+2023-10-19 10:33:59,604 - WARNING -  * Debugger is active!
+2023-10-19 10:33:59,604 - INFO -  * Debugger PIN: 690-219-022
+2023-10-19 10:34:34,857 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-10-19 10:34:34,857 - INFO - [33mPress CTRL+C to quit[0m
+2023-10-19 10:34:34,859 - INFO -  * Restarting with stat
+2023-10-19 10:34:36,176 - WARNING -  * Debugger is active!
+2023-10-19 10:34:36,176 - INFO -  * Debugger PIN: 690-219-022
+2023-10-19 10:35:02,560 - INFO - 127.0.0.1 - - [19/Oct/2023 10:35:02] "GET / HTTP/1.1" 200 -
+2023-10-19 10:35:12,744 - INFO - Extracted data: {'Hemoglobin': '11.9', 'White Blood Cell Count': None, 'Total Red Blood cell Count': None, 'Platelet Count': '277000 lac/cmm [1.5 - 4.0 lac/cmm]'}
+2023-10-19 10:35:12,767 - INFO - Data saved to CSV file: uploads\blood_report_blood_test.csv
+2023-10-19 10:35:12,767 - INFO - Conversion Complete - PDF data has been converted and saved to CSV.
+2023-10-19 10:35:13,831 - INFO - 127.0.0.1 - - [19/Oct/2023 10:35:13] "POST / HTTP/1.1" 200 -
+2023-10-19 10:35:13,986 - INFO - 127.0.0.1 - - [19/Oct/2023 10:35:13] "GET /static/Hemoglobin.png HTTP/1.1" 200 -
+2023-10-19 10:35:13,987 - INFO - 127.0.0.1 - - [19/Oct/2023 10:35:13] "GET /static/White%20Blood%20Cell%20Count.png HTTP/1.1" 200 -
+2023-10-19 10:35:14,029 - INFO - 127.0.0.1 - - [19/Oct/2023 10:35:14] "GET /static/Total%20Red%20Blood%20cell%20Count.png HTTP/1.1" 200 -
+2023-10-19 10:35:14,029 - INFO - 127.0.0.1 - - [19/Oct/2023 10:35:14] "GET /static/Platelet%20Count.png HTTP/1.1" 200 -
+2023-10-23 20:28:06,347 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-10-23 20:28:06,439 - INFO - [33mPress CTRL+C to quit[0m
+2023-10-23 20:28:06,442 - INFO -  * Restarting with stat
+2023-10-23 20:28:07,960 - WARNING -  * Debugger is active!
+2023-10-23 20:28:07,960 - INFO -  * Debugger PIN: 690-219-022
+2023-10-23 20:28:43,137 - INFO - 127.0.0.1 - - [23/Oct/2023 20:28:43] "GET / HTTP/1.1" 200 -
+2023-10-23 20:28:43,386 - INFO - 127.0.0.1 - - [23/Oct/2023 20:28:43] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-10-23 20:29:04,292 - INFO - Extracted data: {'Hemoglobin': '11.9', 'White Blood Cell Count': None, 'Total Red Blood cell Count': None, 'Platelet Count': '277000 lac/cmm [1.5 - 4.0 lac/cmm]'}
+2023-10-23 20:29:04,309 - INFO - Data saved to CSV file: uploads\blood_report_blood_test.csv
+2023-10-23 20:29:04,309 - INFO - Conversion Complete - PDF data has been converted and saved to CSV.
+2023-10-23 20:29:05,231 - INFO - 127.0.0.1 - - [23/Oct/2023 20:29:05] "POST / HTTP/1.1" 200 -
+2023-10-23 20:29:05,378 - INFO - 127.0.0.1 - - [23/Oct/2023 20:29:05] "GET /static/White%20Blood%20Cell%20Count.png HTTP/1.1" 200 -
+2023-10-23 20:29:05,384 - INFO - 127.0.0.1 - - [23/Oct/2023 20:29:05] "GET /static/Hemoglobin.png HTTP/1.1" 200 -
+2023-10-23 20:29:05,429 - INFO - 127.0.0.1 - - [23/Oct/2023 20:29:05] "GET /static/Total%20Red%20Blood%20cell%20Count.png HTTP/1.1" 200 -
+2023-10-23 20:29:05,433 - INFO - 127.0.0.1 - - [23/Oct/2023 20:29:05] "GET /static/Platelet%20Count.png HTTP/1.1" 200 -
+2023-10-23 20:33:51,451 - INFO - 127.0.0.1 - - [23/Oct/2023 20:33:51] "GET / HTTP/1.1" 200 -
+2023-10-23 20:37:39,812 - INFO - 127.0.0.1 - - [23/Oct/2023 20:37:39] "GET / HTTP/1.1" 200 -
+2023-10-26 09:31:34,121 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-10-26 09:31:34,121 - INFO - [33mPress CTRL+C to quit[0m
+2023-10-26 09:31:34,121 - INFO -  * Restarting with stat
+2023-10-26 09:31:35,877 - WARNING -  * Debugger is active!
+2023-10-26 09:31:35,877 - INFO -  * Debugger PIN: 690-219-022
+2023-10-26 09:31:59,686 - INFO - 127.0.0.1 - - [26/Oct/2023 09:31:59] "GET / HTTP/1.1" 200 -
+2023-10-26 09:31:59,906 - INFO - 127.0.0.1 - - [26/Oct/2023 09:31:59] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-10-26 09:33:24,475 - INFO - Extracted data: {'Hemoglobin': '11.9', 'White Blood Cell Count': None, 'Total Red Blood cell Count': None, 'Platelet Count': '277000 lac/cmm [1.5 - 4.0 lac/cmm]'}
+2023-10-26 09:33:24,490 - INFO - Data saved to CSV file: uploads\blood_report_blood_test.csv
+2023-10-26 09:33:24,490 - INFO - Conversion Complete - PDF data has been converted and saved to CSV.
+2023-10-26 09:33:25,580 - INFO - 127.0.0.1 - - [26/Oct/2023 09:33:25] "POST / HTTP/1.1" 200 -
+2023-10-26 09:33:25,736 - INFO - 127.0.0.1 - - [26/Oct/2023 09:33:25] "GET /static/Hemoglobin.png HTTP/1.1" 200 -
+2023-10-26 09:33:25,736 - INFO - 127.0.0.1 - - [26/Oct/2023 09:33:25] "GET /static/White%20Blood%20Cell%20Count.png HTTP/1.1" 200 -
+2023-10-26 09:33:25,783 - INFO - 127.0.0.1 - - [26/Oct/2023 09:33:25] "GET /static/Platelet%20Count.png HTTP/1.1" 200 -
+2023-10-26 09:33:25,783 - INFO - 127.0.0.1 - - [26/Oct/2023 09:33:25] "GET /static/Total%20Red%20Blood%20cell%20Count.png HTTP/1.1" 200 -
+2023-10-26 09:46:03,388 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-10-26 09:46:03,388 - INFO - [33mPress CTRL+C to quit[0m
+2023-10-26 09:46:03,388 - INFO -  * Restarting with stat
+2023-10-26 09:46:04,954 - WARNING -  * Debugger is active!
+2023-10-26 09:46:04,971 - INFO -  * Debugger PIN: 690-219-022
+2023-10-26 09:46:16,126 - INFO - 127.0.0.1 - - [26/Oct/2023 09:46:16] "GET / HTTP/1.1" 200 -
+2023-10-26 09:46:19,359 - INFO - Extracted data: {'Hemoglobin': '11.9', 'White Blood Cell Count': None, 'Total Red Blood cell Count': None, 'Platelet Count': '277000 lac/cmm [1.5 - 4.0 lac/cmm]'}
+2023-10-26 09:46:19,359 - INFO - Data saved to CSV file: uploads\blood_report_blood_test.csv
+2023-10-26 09:46:19,359 - INFO - Conversion Complete - PDF data has been converted and saved to CSV.
+2023-10-26 09:46:20,242 - INFO - 127.0.0.1 - - [26/Oct/2023 09:46:20] "POST / HTTP/1.1" 200 -
+2023-10-26 09:46:20,374 - INFO - 127.0.0.1 - - [26/Oct/2023 09:46:20] "GET /static/Hemoglobin.png HTTP/1.1" 200 -
+2023-10-26 09:46:20,377 - INFO - 127.0.0.1 - - [26/Oct/2023 09:46:20] "GET /static/White%20Blood%20Cell%20Count.png HTTP/1.1" 200 -
+2023-10-26 09:46:20,425 - INFO - 127.0.0.1 - - [26/Oct/2023 09:46:20] "GET /static/Total%20Red%20Blood%20cell%20Count.png HTTP/1.1" 200 -
+2023-10-26 09:46:20,427 - INFO - 127.0.0.1 - - [26/Oct/2023 09:46:20] "GET /static/Platelet%20Count.png HTTP/1.1" 200 -
+2023-10-26 09:48:30,888 - INFO -  * Detected change in 'd:\\data\\sem5\\python\\himanshi\\app.py', reloading
+2023-10-26 09:48:32,236 - INFO -  * Restarting with stat
+2023-10-26 09:48:33,932 - WARNING -  * Debugger is active!
+2023-10-26 09:48:33,932 - INFO -  * Debugger PIN: 690-219-022
+2023-10-26 09:54:38,056 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-10-26 09:54:38,056 - INFO - [33mPress CTRL+C to quit[0m
+2023-10-26 09:54:38,056 - INFO -  * Restarting with stat
+2023-10-26 09:54:39,831 - WARNING -  * Debugger is active!
+2023-10-26 09:54:39,831 - INFO -  * Debugger PIN: 690-219-022
+2023-10-26 09:55:07,955 - INFO - 127.0.0.1 - - [26/Oct/2023 09:55:07] "GET / HTTP/1.1" 200 -
+2023-10-26 09:55:18,601 - INFO - Extracted data: {'Hemoglobin': '11.9', 'White Blood Cell Count': None, 'Total Red Blood cell Count': None, 'Platelet Count': '277000 lac/cmm [1.5 - 4.0 lac/cmm]'}
+2023-10-26 09:55:18,608 - INFO - Data saved to CSV file: uploads\blood_report_blood_test.csv
+2023-10-26 09:55:18,608 - INFO - Conversion Complete - PDF data has been converted and saved to CSV.
+2023-10-26 09:55:19,513 - INFO - 127.0.0.1 - - [26/Oct/2023 09:55:19] "POST / HTTP/1.1" 200 -
+2023-10-26 09:55:19,649 - INFO - 127.0.0.1 - - [26/Oct/2023 09:55:19] "GET /static/Hemoglobin.png HTTP/1.1" 200 -
+2023-10-26 09:55:19,651 - INFO - 127.0.0.1 - - [26/Oct/2023 09:55:19] "GET /static/White%20Blood%20Cell%20Count.png HTTP/1.1" 200 -
+2023-10-26 09:55:19,692 - INFO - 127.0.0.1 - - [26/Oct/2023 09:55:19] "GET /static/Platelet%20Count.png HTTP/1.1" 200 -
+2023-10-26 09:55:19,693 - INFO - 127.0.0.1 - - [26/Oct/2023 09:55:19] "GET /static/Total%20Red%20Blood%20cell%20Count.png HTTP/1.1" 200 -
+2023-10-26 10:00:46,449 - INFO - 127.0.0.1 - - [26/Oct/2023 10:00:46] "GET / HTTP/1.1" 200 -
+2023-10-26 10:18:37,468 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-10-26 10:18:37,471 - INFO - [33mPress CTRL+C to quit[0m
+2023-10-26 10:18:37,472 - INFO -  * Restarting with stat
+2023-10-26 10:18:40,909 - WARNING -  * Debugger is active!
+2023-10-26 10:18:40,916 - INFO -  * Debugger PIN: 690-219-022
+2023-10-26 10:18:43,064 - INFO - 127.0.0.1 - - [26/Oct/2023 10:18:43] "GET / HTTP/1.1" 200 -
+2023-10-26 10:18:56,912 - INFO - Extracted data: {'Hemoglobin': '11.9', 'White Blood Cell Count': None, 'Total Red Blood cell Count': None, 'Platelet Count': '277000 lac/cmm [1.5 - 4.0 lac/cmm]'}
+2023-10-26 10:18:56,930 - INFO - Data saved to CSV file: uploads\blood_report_blood_test.csv
+2023-10-26 10:18:56,933 - INFO - Conversion Complete - PDF data has been converted and saved to CSV.
+2023-10-26 10:18:59,387 - INFO - 127.0.0.1 - - [26/Oct/2023 10:18:59] "POST / HTTP/1.1" 200 -
+2023-10-26 10:18:59,584 - INFO - 127.0.0.1 - - [26/Oct/2023 10:18:59] "GET /static/Hemoglobin.png HTTP/1.1" 200 -
+2023-10-26 10:18:59,609 - INFO - 127.0.0.1 - - [26/Oct/2023 10:18:59] "GET /static/White%20Blood%20Cell%20Count.png HTTP/1.1" 200 -
+2023-10-26 10:18:59,676 - INFO - 127.0.0.1 - - [26/Oct/2023 10:18:59] "GET /static/Total%20Red%20Blood%20cell%20Count.png HTTP/1.1" 200 -
+2023-10-26 10:18:59,686 - INFO - 127.0.0.1 - - [26/Oct/2023 10:18:59] "GET /static/Platelet%20Count.png HTTP/1.1" 200 -
+2023-10-26 10:19:44,922 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-10-26 10:19:44,922 - INFO - [33mPress CTRL+C to quit[0m
+2023-10-26 10:19:44,923 - INFO -  * Restarting with stat
+2023-10-26 10:19:47,945 - WARNING -  * Debugger is active!
+2023-10-26 10:19:47,953 - INFO -  * Debugger PIN: 690-219-022
+2023-10-26 10:19:57,924 - INFO - 127.0.0.1 - - [26/Oct/2023 10:19:57] "GET / HTTP/1.1" 200 -
+2023-10-26 10:20:11,390 - INFO - Extracted data: {'Hemoglobin': '11.9', 'White Blood Cell Count': None, 'Total Red Blood cell Count': None, 'Platelet Count': '277000 lac/cmm [1.5 - 4.0 lac/cmm]'}
+2023-10-26 10:20:11,411 - INFO - Data saved to CSV file: uploads\blood_report_blood_test.csv
+2023-10-26 10:20:11,411 - INFO - Conversion Complete - PDF data has been converted and saved to CSV.
+2023-10-26 10:20:13,362 - INFO - 127.0.0.1 - - [26/Oct/2023 10:20:13] "POST / HTTP/1.1" 200 -
+2023-10-26 10:20:13,581 - INFO - 127.0.0.1 - - [26/Oct/2023 10:20:13] "GET /static/White%20Blood%20Cell%20Count.png HTTP/1.1" 200 -
+2023-10-26 10:20:13,607 - INFO - 127.0.0.1 - - [26/Oct/2023 10:20:13] "GET /static/Hemoglobin.png HTTP/1.1" 200 -
+2023-10-26 10:20:13,665 - INFO - 127.0.0.1 - - [26/Oct/2023 10:20:13] "GET /static/Total%20Red%20Blood%20cell%20Count.png HTTP/1.1" 200 -
+2023-10-26 10:20:13,678 - INFO - 127.0.0.1 - - [26/Oct/2023 10:20:13] "GET /static/Platelet%20Count.png HTTP/1.1" 200 -
+2023-10-26 10:20:49,361 - INFO - 127.0.0.1 - - [26/Oct/2023 10:20:49] "GET / HTTP/1.1" 200 -
+2023-10-26 10:21:16,918 - INFO - Extracted data: {'ORF 1ab': 'NOT', 'N gene': 'NOT'}
+2023-10-26 10:21:16,918 - INFO - Data saved to CSV file: uploads\TestReport_Covid_test.csv
+2023-10-26 10:21:16,918 - INFO - Conversion Complete - PDF data has been converted and saved to CSV.
+2023-10-26 10:21:16,918 - INFO - 127.0.0.1 - - [26/Oct/2023 10:21:16] "POST / HTTP/1.1" 200 -
+2023-10-26 10:21:16,945 - INFO - 127.0.0.1 - - [26/Oct/2023 10:21:16] "[36mGET /static/Hemoglobin.png HTTP/1.1[0m" 304 -
+2023-10-26 10:21:16,945 - INFO - 127.0.0.1 - - [26/Oct/2023 10:21:16] "[36mGET /static/White%20Blood%20Cell%20Count.png HTTP/1.1[0m" 304 -
+2023-10-26 10:21:17,054 - INFO - 127.0.0.1 - - [26/Oct/2023 10:21:17] "[36mGET /static/Total%20Red%20Blood%20cell%20Count.png HTTP/1.1[0m" 304 -
+2023-10-26 10:21:17,054 - INFO - 127.0.0.1 - - [26/Oct/2023 10:21:17] "[36mGET /static/Platelet%20Count.png HTTP/1.1[0m" 304 -
+2023-10-26 10:47:02,620 - INFO -  * Detected change in 'd:\\data\\sem5\\python\\himanshi\\app.py', reloading
+2023-10-26 10:47:04,189 - INFO -  * Restarting with stat
+2023-10-26 10:47:08,030 - WARNING -  * Debugger is active!
+2023-10-26 10:47:08,030 - INFO -  * Debugger PIN: 690-219-022
+2023-10-26 10:56:38,223 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-10-26 10:56:38,223 - INFO - [33mPress CTRL+C to quit[0m
+2023-10-26 10:56:38,230 - INFO -  * Restarting with stat
+2023-10-26 10:56:42,015 - WARNING -  * Debugger is active!
+2023-10-26 10:56:42,018 - INFO -  * Debugger PIN: 690-219-022
+2023-10-26 10:56:51,150 - INFO - 127.0.0.1 - - [26/Oct/2023 10:56:51] "GET / HTTP/1.1" 200 -
+2023-10-26 10:57:01,060 - INFO - Extracted data: {'Hemoglobin': '11.9', 'White Blood Cell Count': None, 'Total Red Blood cell Count': None, 'Platelet Count': '277000'}
+2023-10-26 10:57:01,075 - INFO - Data saved to CSV file: uploads\blood_report_blood_test.csv
+2023-10-26 10:57:01,075 - INFO - Conversion Complete - PDF data has been converted and saved to CSV.
+2023-10-26 10:57:03,525 - INFO - 127.0.0.1 - - [26/Oct/2023 10:57:03] "POST / HTTP/1.1" 200 -
+2023-10-26 10:57:03,739 - INFO - 127.0.0.1 - - [26/Oct/2023 10:57:03] "GET /static/Hemoglobin.png HTTP/1.1" 200 -
+2023-10-26 10:57:03,741 - INFO - 127.0.0.1 - - [26/Oct/2023 10:57:03] "GET /static/White%20Blood%20Cell%20Count.png HTTP/1.1" 200 -
+2023-10-26 10:57:03,813 - INFO - 127.0.0.1 - - [26/Oct/2023 10:57:03] "GET /static/Total%20Red%20Blood%20cell%20Count.png HTTP/1.1" 200 -
+2023-10-26 10:57:03,813 - INFO - 127.0.0.1 - - [26/Oct/2023 10:57:03] "GET /static/Platelet%20Count.png HTTP/1.1" 200 -
+2023-10-26 10:57:11,195 - INFO - 127.0.0.1 - - [26/Oct/2023 10:57:11] "GET / HTTP/1.1" 200 -
+2023-10-26 10:57:20,501 - INFO - Extracted data: {'ORF 1ab': 'NOT', 'N gene': 'NOT'}
+2023-10-26 10:57:20,512 - ERROR - PDF extraction error: could not convert string to float: 'NOT'
+2023-10-26 10:57:20,512 - INFO - Error - An error occurred while processing the PDF.
+2023-10-26 10:57:20,528 - INFO - 127.0.0.1 - - [26/Oct/2023 10:57:20] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2023-10-26 10:57:20,562 - INFO - 127.0.0.1 - - [26/Oct/2023 10:57:20] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-10-26 10:57:20,562 - INFO - 127.0.0.1 - - [26/Oct/2023 10:57:20] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-10-26 10:57:20,747 - INFO - 127.0.0.1 - - [26/Oct/2023 10:57:20] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-10-26 10:57:20,778 - INFO - 127.0.0.1 - - [26/Oct/2023 10:57:20] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-10-26 10:57:44,846 - INFO -  * Detected change in 'd:\\data\\sem5\\python\\himanshi\\app.py', reloading
+2023-10-26 10:57:46,257 - INFO -  * Restarting with stat
+2023-10-26 10:57:49,837 - WARNING -  * Debugger is active!
+2023-10-26 10:57:49,854 - INFO -  * Debugger PIN: 690-219-022
+2023-10-26 10:57:52,017 - INFO - Extracted data: {'ORF 1ab': 'NOT', 'N gene': 'NOT'}
+2023-10-26 10:57:52,035 - ERROR - PDF extraction error: could not convert string to float: 'NOT'
+2023-10-26 10:57:52,035 - INFO - Error - An error occurred while processing the PDF.
+2023-10-26 10:57:52,051 - INFO - 127.0.0.1 - - [26/Oct/2023 10:57:52] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2023-10-26 10:57:52,201 - INFO - 127.0.0.1 - - [26/Oct/2023 10:57:52] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-10-26 10:57:52,204 - INFO - 127.0.0.1 - - [26/Oct/2023 10:57:52] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-10-26 10:57:52,220 - INFO - 127.0.0.1 - - [26/Oct/2023 10:57:52] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-10-26 10:57:52,236 - INFO - 127.0.0.1 - - [26/Oct/2023 10:57:52] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-10-26 10:58:00,193 - INFO - Extracted data: {'ORF 1ab': 'NOT', 'N gene': 'NOT'}
+2023-10-26 10:58:00,210 - ERROR - PDF extraction error: could not convert string to float: 'NOT'
+2023-10-26 10:58:00,210 - INFO - Error - An error occurred while processing the PDF.
+2023-10-26 10:58:00,216 - INFO - 127.0.0.1 - - [26/Oct/2023 10:58:00] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2023-10-26 10:58:00,247 - INFO - 127.0.0.1 - - [26/Oct/2023 10:58:00] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-10-26 10:58:00,249 - INFO - 127.0.0.1 - - [26/Oct/2023 10:58:00] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-10-26 10:58:00,358 - INFO - 127.0.0.1 - - [26/Oct/2023 10:58:00] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-10-26 10:58:00,391 - INFO - 127.0.0.1 - - [26/Oct/2023 10:58:00] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-10-26 11:11:19,477 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-10-26 11:11:19,829 - INFO - [33mPress CTRL+C to quit[0m
+2023-10-26 11:11:19,842 - INFO -  * Restarting with stat
+2023-10-26 11:11:22,165 - WARNING -  * Debugger is active!
+2023-10-26 11:11:22,173 - INFO -  * Debugger PIN: 690-219-022
+2023-10-26 11:12:03,790 - INFO - 127.0.0.1 - - [26/Oct/2023 11:12:03] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-10-26 11:12:49,843 - INFO - 127.0.0.1 - - [26/Oct/2023 11:12:49] "GET / HTTP/1.1" 200 -
+2023-10-26 11:13:01,824 - INFO - Extracted data: {'Hemoglobin': '11.9', 'White Blood Cell Count': None, 'Total Red Blood cell Count': None, 'Platelet Count': '277000'}
+2023-10-26 11:13:01,882 - INFO - Data saved to CSV file: uploads\blood_report_blood_test.csv
+2023-10-26 11:13:01,882 - INFO - Conversion Complete - PDF data has been converted and saved to CSV.
+2023-10-26 11:13:04,455 - INFO - 127.0.0.1 - - [26/Oct/2023 11:13:04] "POST / HTTP/1.1" 200 -
+2023-10-26 11:13:04,681 - INFO - 127.0.0.1 - - [26/Oct/2023 11:13:04] "GET /static/White%20Blood%20Cell%20Count.png HTTP/1.1" 200 -
+2023-10-26 11:13:04,690 - INFO - 127.0.0.1 - - [26/Oct/2023 11:13:04] "GET /static/Hemoglobin.png HTTP/1.1" 200 -
+2023-10-26 11:13:04,773 - INFO - 127.0.0.1 - - [26/Oct/2023 11:13:04] "GET /static/Total%20Red%20Blood%20cell%20Count.png HTTP/1.1" 200 -
+2023-10-26 11:13:04,780 - INFO - 127.0.0.1 - - [26/Oct/2023 11:13:04] "GET /static/Platelet%20Count.png HTTP/1.1" 200 -
+2023-10-26 11:13:07,664 - INFO - 127.0.0.1 - - [26/Oct/2023 11:13:07] "GET / HTTP/1.1" 200 -
+2023-10-26 11:13:16,672 - INFO - Extracted data: {'ORF 1ab': 'NOT', 'N gene': 'NOT'}
+2023-10-26 11:13:16,684 - ERROR - PDF extraction error: could not convert string to float: 'NOT'
+2023-10-26 11:13:16,684 - INFO - Error - An error occurred while processing the PDF.
+2023-10-26 11:13:16,697 - INFO - 127.0.0.1 - - [26/Oct/2023 11:13:16] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2023-10-26 11:13:16,721 - INFO - 127.0.0.1 - - [26/Oct/2023 11:13:16] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-10-26 11:13:16,721 - INFO - 127.0.0.1 - - [26/Oct/2023 11:13:16] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-10-26 11:13:16,874 - INFO - 127.0.0.1 - - [26/Oct/2023 11:13:16] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-10-26 11:13:16,907 - INFO - 127.0.0.1 - - [26/Oct/2023 11:13:16] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-10-26 11:16:17,696 - INFO -  * Detected change in 'd:\\data\\sem5\\python\\himanshi\\app.py', reloading
+2023-10-26 11:16:19,193 - INFO -  * Restarting with stat
+2023-10-26 11:16:23,551 - WARNING -  * Debugger is active!
+2023-10-26 11:16:23,570 - INFO -  * Debugger PIN: 690-219-022
+2023-10-26 11:17:49,247 - INFO -  * Detected change in 'd:\\data\\sem5\\python\\himanshi\\app.py', reloading
+2023-10-26 11:17:49,657 - INFO -  * Restarting with stat
+2023-10-26 11:17:53,703 - WARNING -  * Debugger is active!
+2023-10-26 11:17:53,716 - INFO -  * Debugger PIN: 690-219-022
+2023-10-26 11:21:59,295 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-10-26 11:21:59,295 - INFO - [33mPress CTRL+C to quit[0m
+2023-10-26 11:21:59,295 - INFO -  * Restarting with stat
+2023-10-26 11:22:03,195 - WARNING -  * Debugger is active!
+2023-10-26 11:22:03,208 - INFO -  * Debugger PIN: 690-219-022
+2023-10-26 11:22:16,322 - INFO - 127.0.0.1 - - [26/Oct/2023 11:22:16] "GET / HTTP/1.1" 200 -
+2023-10-26 11:22:26,678 - INFO - Extracted data: {'ORF 1ab': 'NOT', 'N gene': 'NOT'}
+2023-10-26 11:22:26,693 - ERROR - PDF extraction error: could not convert string to float: 'NOT'
+2023-10-26 11:22:26,693 - INFO - Error - An error occurred while processing the PDF.
+2023-10-26 11:22:26,724 - INFO - 127.0.0.1 - - [26/Oct/2023 11:22:26] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2023-10-26 11:22:26,920 - INFO - 127.0.0.1 - - [26/Oct/2023 11:22:26] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-10-26 11:22:26,928 - INFO - 127.0.0.1 - - [26/Oct/2023 11:22:26] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-10-26 11:22:27,040 - INFO - 127.0.0.1 - - [26/Oct/2023 11:22:27] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-10-26 11:22:27,076 - INFO - 127.0.0.1 - - [26/Oct/2023 11:22:27] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-10-26 11:35:39,499 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-10-26 11:35:39,499 - INFO - [33mPress CTRL+C to quit[0m
+2023-10-26 11:35:39,505 - INFO -  * Restarting with stat
+2023-10-26 11:35:42,176 - WARNING -  * Debugger is active!
+2023-10-26 11:35:42,187 - INFO -  * Debugger PIN: 690-219-022
+2023-10-26 11:36:00,158 - INFO - 127.0.0.1 - - [26/Oct/2023 11:36:00] "GET / HTTP/1.1" 200 -
+2023-10-26 11:36:10,159 - INFO - Extracted data: {'ORF 1ab': 'NOT', 'N gene': 'NOT'}
+2023-10-26 11:36:10,187 - ERROR - PDF extraction error: could not convert string to float: 'NOT'
+2023-10-26 11:36:10,187 - INFO - Error - An error occurred while processing the PDF.
+2023-10-26 11:36:10,209 - INFO - 127.0.0.1 - - [26/Oct/2023 11:36:10] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2023-10-26 11:36:10,385 - INFO - 127.0.0.1 - - [26/Oct/2023 11:36:10] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-10-26 11:36:10,387 - INFO - 127.0.0.1 - - [26/Oct/2023 11:36:10] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-10-26 11:36:10,493 - INFO - 127.0.0.1 - - [26/Oct/2023 11:36:10] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-10-26 11:36:10,526 - INFO - 127.0.0.1 - - [26/Oct/2023 11:36:10] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-10-26 11:38:46,178 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-10-26 11:38:46,178 - INFO - [33mPress CTRL+C to quit[0m
+2023-10-26 11:38:46,178 - INFO -  * Restarting with stat
+2023-10-26 11:38:49,727 - WARNING -  * Debugger is active!
+2023-10-26 11:38:49,741 - INFO -  * Debugger PIN: 690-219-022
+2023-10-26 11:39:02,165 - INFO - 127.0.0.1 - - [26/Oct/2023 11:39:02] "GET / HTTP/1.1" 200 -
+2023-10-26 11:39:14,487 - INFO - Extracted data: {'ORF 1ab': 'NOT', 'N gene': 'NOT'}
+2023-10-26 11:39:14,503 - ERROR - PDF extraction error: could not convert string to float: 'NOT'
+2023-10-26 11:39:14,503 - INFO - Error - An error occurred while processing the PDF.
+2023-10-26 11:39:14,527 - INFO - 127.0.0.1 - - [26/Oct/2023 11:39:14] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2023-10-26 11:39:14,673 - INFO - 127.0.0.1 - - [26/Oct/2023 11:39:14] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-10-26 11:39:14,673 - INFO - 127.0.0.1 - - [26/Oct/2023 11:39:14] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-10-26 11:39:14,759 - INFO - 127.0.0.1 - - [26/Oct/2023 11:39:14] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-10-26 11:39:14,783 - INFO - 127.0.0.1 - - [26/Oct/2023 11:39:14] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-10-26 11:47:23,867 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-10-26 11:47:23,871 - INFO - [33mPress CTRL+C to quit[0m
+2023-10-26 11:47:23,873 - INFO -  * Restarting with stat
+2023-10-26 11:47:27,239 - WARNING -  * Debugger is active!
+2023-10-26 11:47:27,259 - INFO -  * Debugger PIN: 690-219-022
+2023-10-26 11:47:30,496 - INFO - 127.0.0.1 - - [26/Oct/2023 11:47:30] "GET / HTTP/1.1" 200 -
+2023-10-26 11:47:41,171 - INFO - Extracted data: {'ORF 1ab': 'NOT', 'N gene': 'NOT'}
+2023-10-26 11:47:41,189 - ERROR - PDF extraction error: could not convert string to float: 'NOT'
+2023-10-26 11:47:41,189 - INFO - Error - An error occurred while processing the PDF.
+2023-10-26 11:47:41,211 - INFO - 127.0.0.1 - - [26/Oct/2023 11:47:41] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2023-10-26 11:47:41,386 - INFO - 127.0.0.1 - - [26/Oct/2023 11:47:41] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-10-26 11:47:41,401 - INFO - 127.0.0.1 - - [26/Oct/2023 11:47:41] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-10-26 11:47:41,489 - INFO - 127.0.0.1 - - [26/Oct/2023 11:47:41] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-10-26 11:47:41,516 - INFO - 127.0.0.1 - - [26/Oct/2023 11:47:41] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-10-26 11:48:40,144 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-10-26 11:48:40,144 - INFO - [33mPress CTRL+C to quit[0m
+2023-10-26 11:48:40,149 - INFO -  * Restarting with stat
+2023-10-26 11:48:43,969 - WARNING -  * Debugger is active!
+2023-10-26 11:48:43,983 - INFO -  * Debugger PIN: 690-219-022
+2023-10-26 11:48:46,052 - INFO - 127.0.0.1 - - [26/Oct/2023 11:48:46] "GET / HTTP/1.1" 200 -
+2023-10-26 11:48:55,115 - INFO - Extracted data: {'ORF 1ab': 'NOT', 'N gene': 'NOT'}
+2023-10-26 11:48:55,132 - ERROR - PDF extraction error: could not convert string to float: 'NOT'
+2023-10-26 11:48:55,132 - INFO - Error - An error occurred while processing the PDF.
+2023-10-26 11:48:55,161 - INFO - 127.0.0.1 - - [26/Oct/2023 11:48:55] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2023-10-26 11:48:55,356 - INFO - 127.0.0.1 - - [26/Oct/2023 11:48:55] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-10-26 11:48:55,357 - INFO - 127.0.0.1 - - [26/Oct/2023 11:48:55] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-10-26 11:48:55,450 - INFO - 127.0.0.1 - - [26/Oct/2023 11:48:55] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-10-26 11:48:55,481 - INFO - 127.0.0.1 - - [26/Oct/2023 11:48:55] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-10-26 11:50:29,906 - INFO -  * Detected change in 'd:\\data\\sem5\\python\\himanshi\\app.py', reloading
+2023-10-26 11:50:30,171 - INFO -  * Restarting with stat
+2023-10-26 11:50:33,347 - WARNING -  * Debugger is active!
+2023-10-26 11:50:33,361 - INFO -  * Debugger PIN: 690-219-022
+2023-10-26 11:50:41,728 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-10-26 11:50:41,729 - INFO - [33mPress CTRL+C to quit[0m
+2023-10-26 11:50:41,730 - INFO -  * Restarting with stat
+2023-10-26 11:50:44,413 - WARNING -  * Debugger is active!
+2023-10-26 11:50:44,423 - INFO -  * Debugger PIN: 690-219-022
+2023-10-26 11:51:00,601 - INFO - 127.0.0.1 - - [26/Oct/2023 11:51:00] "GET / HTTP/1.1" 200 -
+2023-10-26 11:51:10,506 - INFO - Extracted data: {'ORF 1ab': 0, 'N gene': 0}
+2023-10-26 11:51:10,522 - ERROR - PDF extraction error: Invalid value range format
+2023-10-26 11:51:10,522 - INFO - Error - An error occurred while processing the PDF.
+2023-10-26 11:51:10,548 - INFO - 127.0.0.1 - - [26/Oct/2023 11:51:10] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2023-10-26 11:51:10,722 - INFO - 127.0.0.1 - - [26/Oct/2023 11:51:10] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-10-26 11:51:10,727 - INFO - 127.0.0.1 - - [26/Oct/2023 11:51:10] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-10-26 11:51:10,831 - INFO - 127.0.0.1 - - [26/Oct/2023 11:51:10] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-10-26 11:51:10,858 - INFO - 127.0.0.1 - - [26/Oct/2023 11:51:10] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-10-26 11:56:10,987 - INFO -  * Detected change in 'd:\\data\\sem5\\python\\himanshi\\app.py', reloading
+2023-10-26 11:56:11,241 - INFO -  * Restarting with stat
+2023-10-26 11:56:14,572 - WARNING -  * Debugger is active!
+2023-10-26 11:56:14,597 - INFO -  * Debugger PIN: 690-219-022
+2023-10-26 11:56:21,444 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-10-26 11:56:21,444 - INFO - [33mPress CTRL+C to quit[0m
+2023-10-26 11:56:21,444 - INFO -  * Restarting with stat
+2023-10-26 11:56:24,461 - WARNING -  * Debugger is active!
+2023-10-26 11:56:24,467 - INFO -  * Debugger PIN: 690-219-022
+2023-10-26 11:56:29,785 - INFO - 127.0.0.1 - - [26/Oct/2023 11:56:29] "GET / HTTP/1.1" 200 -
+2023-10-26 11:56:39,157 - INFO - Extracted data: {'ORF 1ab': 0, 'N gene': 0}
+2023-10-26 11:56:39,178 - ERROR - PDF extraction error: Invalid value range format
+2023-10-26 11:56:39,178 - INFO - Error - An error occurred while processing the PDF.
+2023-10-26 11:56:39,196 - INFO - 127.0.0.1 - - [26/Oct/2023 11:56:39] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2023-10-26 11:56:39,386 - INFO - 127.0.0.1 - - [26/Oct/2023 11:56:39] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-10-26 11:56:39,386 - INFO - 127.0.0.1 - - [26/Oct/2023 11:56:39] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-10-26 11:56:39,485 - INFO - 127.0.0.1 - - [26/Oct/2023 11:56:39] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-10-26 11:56:39,516 - INFO - 127.0.0.1 - - [26/Oct/2023 11:56:39] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-10-26 11:57:50,189 - INFO -  * Detected change in 'd:\\data\\sem5\\python\\himanshi\\app.py', reloading
+2023-10-26 11:57:50,432 - INFO -  * Restarting with stat
+2023-10-26 11:57:53,539 - WARNING -  * Debugger is active!
+2023-10-26 11:57:53,552 - INFO -  * Debugger PIN: 690-219-022
+2023-10-26 11:58:00,714 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-10-26 11:58:00,714 - INFO - [33mPress CTRL+C to quit[0m
+2023-10-26 11:58:00,714 - INFO -  * Restarting with stat
+2023-10-26 11:58:04,383 - WARNING -  * Debugger is active!
+2023-10-26 11:58:04,399 - INFO -  * Debugger PIN: 690-219-022
+2023-10-26 11:58:07,539 - INFO - 127.0.0.1 - - [26/Oct/2023 11:58:07] "GET / HTTP/1.1" 200 -
+2023-10-26 11:58:17,004 - INFO - Extracted data: {'ORF 1ab': 0, 'N gene': 0}
+2023-10-26 11:58:17,027 - ERROR - PDF extraction error: Invalid value range format
+2023-10-26 11:58:17,027 - INFO - Error - An error occurred while processing the PDF.
+2023-10-26 11:58:17,035 - INFO - 127.0.0.1 - - [26/Oct/2023 11:58:17] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2023-10-26 11:58:17,205 - INFO - 127.0.0.1 - - [26/Oct/2023 11:58:17] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-10-26 11:58:17,214 - INFO - 127.0.0.1 - - [26/Oct/2023 11:58:17] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-10-26 11:58:17,304 - INFO - 127.0.0.1 - - [26/Oct/2023 11:58:17] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-10-26 11:58:17,330 - INFO - 127.0.0.1 - - [26/Oct/2023 11:58:17] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-10-26 16:37:48,693 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-10-26 16:37:48,779 - INFO - [33mPress CTRL+C to quit[0m
+2023-10-26 16:37:48,779 - INFO -  * Restarting with stat
+2023-10-26 16:37:52,270 - WARNING -  * Debugger is active!
+2023-10-26 16:37:52,285 - INFO -  * Debugger PIN: 690-219-022
+2023-10-26 16:38:25,053 - INFO - 127.0.0.1 - - [26/Oct/2023 16:38:25] "GET / HTTP/1.1" 200 -
+2023-10-26 16:38:25,342 - INFO - 127.0.0.1 - - [26/Oct/2023 16:38:25] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-10-26 16:38:48,121 - INFO - Extracted data: {'Hemoglobin': '11.9', 'White Blood Cell Count': None, 'Total Red Blood cell Count': None, 'Platelet Count': '277000'}
+2023-10-26 16:38:48,264 - INFO - Data saved to CSV file: uploads\blood_report_blood_test.csv
+2023-10-26 16:38:48,264 - INFO - Conversion Complete - PDF data has been converted and saved to CSV.
+2023-10-26 16:38:51,060 - INFO - 127.0.0.1 - - [26/Oct/2023 16:38:51] "POST / HTTP/1.1" 200 -
+2023-10-26 16:38:51,341 - INFO - 127.0.0.1 - - [26/Oct/2023 16:38:51] "GET /static/White%20Blood%20Cell%20Count.png HTTP/1.1" 200 -
+2023-10-26 16:38:51,345 - INFO - 127.0.0.1 - - [26/Oct/2023 16:38:51] "GET /static/Hemoglobin.png HTTP/1.1" 200 -
+2023-10-26 16:38:51,412 - INFO - 127.0.0.1 - - [26/Oct/2023 16:38:51] "GET /static/Total%20Red%20Blood%20cell%20Count.png HTTP/1.1" 200 -
+2023-10-26 16:38:51,412 - INFO - 127.0.0.1 - - [26/Oct/2023 16:38:51] "GET /static/Platelet%20Count.png HTTP/1.1" 200 -
+2023-10-26 16:38:57,816 - INFO - 127.0.0.1 - - [26/Oct/2023 16:38:57] "GET / HTTP/1.1" 200 -
+2023-10-26 16:39:20,327 - INFO - Extracted data: {'ORF 1ab': 0, 'N gene': 0}
+2023-10-26 16:39:20,337 - ERROR - PDF extraction error: Invalid value range format
+2023-10-26 16:39:20,337 - INFO - Error - An error occurred while processing the PDF.
+2023-10-26 16:39:20,354 - INFO - 127.0.0.1 - - [26/Oct/2023 16:39:20] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2023-10-26 16:39:20,378 - INFO - 127.0.0.1 - - [26/Oct/2023 16:39:20] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-10-26 16:39:20,385 - INFO - 127.0.0.1 - - [26/Oct/2023 16:39:20] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-10-26 16:39:20,589 - INFO - 127.0.0.1 - - [26/Oct/2023 16:39:20] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-10-26 16:39:20,620 - INFO - 127.0.0.1 - - [26/Oct/2023 16:39:20] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-10-26 16:41:59,856 - INFO -  * Detected change in 'd:\\data\\sem5\\python\\himanshi\\app.py', reloading
+2023-10-26 16:42:01,280 - INFO -  * Restarting with stat
+2023-10-26 16:42:04,732 - WARNING -  * Debugger is active!
+2023-10-26 16:42:04,732 - INFO -  * Debugger PIN: 690-219-022
+2023-10-26 16:43:13,299 - INFO -  * Detected change in 'd:\\data\\sem5\\python\\himanshi\\app.py', reloading
+2023-10-26 16:43:13,540 - INFO -  * Restarting with stat
+2023-10-26 16:43:16,617 - WARNING -  * Debugger is active!
+2023-10-26 16:43:16,627 - INFO -  * Debugger PIN: 690-219-022
+2023-10-26 16:43:29,962 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-10-26 16:43:29,962 - INFO - [33mPress CTRL+C to quit[0m
+2023-10-26 16:43:29,962 - INFO -  * Restarting with stat
+2023-10-26 16:43:33,503 - WARNING -  * Debugger is active!
+2023-10-26 16:43:33,509 - INFO -  * Debugger PIN: 690-219-022
+2023-10-26 16:43:35,841 - INFO - Extracted data: {'ORF 1ab': 0, 'N gene': 0}
+2023-10-26 16:43:35,859 - ERROR - PDF extraction error: Invalid value range format
+2023-10-26 16:43:35,859 - INFO - Error - An error occurred while processing the PDF.
+2023-10-26 16:43:37,288 - INFO - 127.0.0.1 - - [26/Oct/2023 16:43:37] "POST / HTTP/1.1" 200 -
+2023-10-26 16:43:37,478 - INFO - 127.0.0.1 - - [26/Oct/2023 16:43:37] "[36mGET /static/White%20Blood%20Cell%20Count.png HTTP/1.1[0m" 304 -
+2023-10-26 16:43:37,478 - INFO - 127.0.0.1 - - [26/Oct/2023 16:43:37] "[36mGET /static/Hemoglobin.png HTTP/1.1[0m" 304 -
+2023-10-26 16:43:37,525 - INFO - 127.0.0.1 - - [26/Oct/2023 16:43:37] "[36mGET /static/Total%20Red%20Blood%20cell%20Count.png HTTP/1.1[0m" 304 -
+2023-10-26 16:43:37,531 - INFO - 127.0.0.1 - - [26/Oct/2023 16:43:37] "[36mGET /static/Platelet%20Count.png HTTP/1.1[0m" 304 -
+2023-10-26 16:44:25,461 - INFO -  * Detected change in 'd:\\data\\sem5\\python\\himanshi\\app.py', reloading
+2023-10-26 16:44:26,912 - INFO -  * Restarting with stat
+2023-10-26 16:44:30,408 - WARNING -  * Debugger is active!
+2023-10-26 16:44:30,408 - INFO -  * Debugger PIN: 690-219-022
+2023-10-26 16:46:09,554 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-10-26 16:46:09,554 - INFO - [33mPress CTRL+C to quit[0m
+2023-10-26 16:46:09,556 - INFO -  * Restarting with stat
+2023-10-26 16:46:12,959 - WARNING -  * Debugger is active!
+2023-10-26 16:46:12,959 - INFO -  * Debugger PIN: 690-219-022
+2023-10-26 17:04:20,504 - INFO -  * Detected change in 'd:\\data\\sem5\\python\\himanshi\\app.py', reloading
+2023-10-26 17:04:20,810 - INFO -  * Restarting with stat
+2023-10-26 17:04:24,431 - WARNING -  * Debugger is active!
+2023-10-26 17:04:24,439 - INFO -  * Debugger PIN: 690-219-022
+2023-10-26 17:09:46,124 - INFO -  * Detected change in 'd:\\data\\sem5\\python\\himanshi\\app.py', reloading
+2023-10-26 17:09:46,499 - INFO -  * Restarting with stat
+2023-10-26 17:09:49,583 - WARNING -  * Debugger is active!
+2023-10-26 17:09:49,597 - INFO -  * Debugger PIN: 690-219-022
+2023-10-26 17:14:14,840 - INFO -  * Detected change in 'd:\\data\\sem5\\python\\himanshi\\app.py', reloading
+2023-10-26 17:14:15,108 - INFO -  * Restarting with stat
+2023-10-26 17:33:17,927 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-10-26 17:33:18,284 - INFO - [33mPress CTRL+C to quit[0m
+2023-10-26 17:33:18,286 - INFO -  * Restarting with stat
+2023-10-26 17:33:20,297 - WARNING -  * Debugger is active!
+2023-10-26 17:33:20,297 - INFO -  * Debugger PIN: 690-219-022
+2023-10-26 17:33:27,441 - INFO - 127.0.0.1 - - [26/Oct/2023 17:33:27] "GET / HTTP/1.1" 200 -
+2023-10-26 17:33:27,696 - INFO - 127.0.0.1 - - [26/Oct/2023 17:33:27] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-10-26 17:34:18,566 - INFO - Extracted data: {'Hemoglobin': '11.9', 'White Blood Cell Count': None, 'Total Red Blood cell Count': None, 'Platelet Count': '277000 lac/cmm [1.5 - 4.0 lac/cmm]'}
+2023-10-26 17:34:18,566 - INFO - Data saved to CSV file: uploads\blood_report_blood_test.csv
+2023-10-26 17:34:18,566 - INFO - Conversion Complete - PDF data has been converted and saved to CSV.
+2023-10-26 17:34:19,789 - INFO - 127.0.0.1 - - [26/Oct/2023 17:34:19] "POST / HTTP/1.1" 200 -
+2023-10-26 17:34:19,943 - INFO - 127.0.0.1 - - [26/Oct/2023 17:34:19] "GET /static/White%20Blood%20Cell%20Count.png HTTP/1.1" 200 -
+2023-10-26 17:34:19,944 - INFO - 127.0.0.1 - - [26/Oct/2023 17:34:19] "GET /static/Hemoglobin.png HTTP/1.1" 200 -
+2023-10-26 17:34:19,998 - INFO - 127.0.0.1 - - [26/Oct/2023 17:34:19] "GET /static/Platelet%20Count.png HTTP/1.1" 200 -
+2023-10-26 17:34:19,998 - INFO - 127.0.0.1 - - [26/Oct/2023 17:34:19] "GET /static/Total%20Red%20Blood%20cell%20Count.png HTTP/1.1" 200 -
+2023-10-30 15:34:05,821 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-10-30 15:34:05,910 - INFO - [33mPress CTRL+C to quit[0m
+2023-10-30 15:34:05,926 - INFO -  * Restarting with stat
+2023-10-30 15:34:07,733 - WARNING -  * Debugger is active!
+2023-10-30 15:34:07,737 - INFO -  * Debugger PIN: 690-219-022
+2023-10-30 15:36:28,552 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-10-30 15:36:28,552 - INFO - [33mPress CTRL+C to quit[0m
+2023-10-30 15:36:28,552 - INFO -  * Restarting with stat
+2023-10-30 15:36:30,327 - WARNING -  * Debugger is active!
+2023-10-30 15:36:30,332 - INFO -  * Debugger PIN: 690-219-022
+2023-10-30 15:38:29,927 - INFO -  * Detected change in 'd:\\data\\sem5\\python\\himanshi\\app.py', reloading
+2023-10-30 15:38:30,102 - INFO -  * Restarting with stat
+2023-10-30 15:38:32,144 - WARNING -  * Debugger is active!
+2023-10-30 15:38:32,144 - INFO -  * Debugger PIN: 690-219-022
+2023-10-30 15:39:07,159 - INFO - 127.0.0.1 - - [30/Oct/2023 15:39:07] "GET / HTTP/1.1" 200 -
+2023-10-30 15:39:32,435 - INFO - Extracted data: {'Hemoglobin': '11.9', 'White Blood Cell Count': '8360', 'Total Red Blood cell Count': '4.17', 'Platelet Count': '277000'}
+2023-10-30 15:39:32,439 - INFO - Data saved to CSV file: uploads\blood_report_blood_test.csv
+2023-10-30 15:39:32,439 - INFO - Conversion Complete - PDF data has been converted and saved to CSV.
+2023-10-30 15:39:33,702 - INFO - 127.0.0.1 - - [30/Oct/2023 15:39:33] "POST / HTTP/1.1" 200 -
+2023-10-30 15:39:33,904 - INFO - 127.0.0.1 - - [30/Oct/2023 15:39:33] "GET /static/Hemoglobin.png HTTP/1.1" 200 -
+2023-10-30 15:39:33,924 - INFO - 127.0.0.1 - - [30/Oct/2023 15:39:33] "GET /static/White%20Blood%20Cell%20Count.png HTTP/1.1" 200 -
+2023-10-30 15:39:33,968 - INFO - 127.0.0.1 - - [30/Oct/2023 15:39:33] "GET /static/Total%20Red%20Blood%20cell%20Count.png HTTP/1.1" 200 -
+2023-10-30 15:39:33,969 - INFO - 127.0.0.1 - - [30/Oct/2023 15:39:33] "GET /static/Platelet%20Count.png HTTP/1.1" 200 -
+2023-10-30 15:39:43,439 - INFO - 127.0.0.1 - - [30/Oct/2023 15:39:43] "GET / HTTP/1.1" 200 -
+2023-10-30 15:39:52,341 - INFO - Extracted data: {'ORF-1ab': 'NOT', 'N-gene': 'NOT', 'Conclusion': 'NEGATIVE'}
+2023-10-30 15:39:52,341 - INFO - Data saved to CSV file: uploads\TestReport_Covid_test.csv
+2023-10-30 15:39:52,341 - INFO - Conversion Complete - PDF data has been converted and saved to CSV.
+2023-10-30 15:39:52,375 - INFO - 127.0.0.1 - - [30/Oct/2023 15:39:52] "POST / HTTP/1.1" 200 -
+2023-10-30 15:39:52,396 - INFO - 127.0.0.1 - - [30/Oct/2023 15:39:52] "[36mGET /static/Hemoglobin.png HTTP/1.1[0m" 304 -
+2023-10-30 15:39:52,398 - INFO - 127.0.0.1 - - [30/Oct/2023 15:39:52] "[36mGET /static/White%20Blood%20Cell%20Count.png HTTP/1.1[0m" 304 -
+2023-10-30 15:39:52,462 - INFO - 127.0.0.1 - - [30/Oct/2023 15:39:52] "[36mGET /static/Total%20Red%20Blood%20cell%20Count.png HTTP/1.1[0m" 304 -
+2023-10-30 15:39:52,463 - INFO - 127.0.0.1 - - [30/Oct/2023 15:39:52] "[36mGET /static/Platelet%20Count.png HTTP/1.1[0m" 304 -
+2023-11-02 08:03:48,193 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-11-02 08:03:48,200 - INFO - [33mPress CTRL+C to quit[0m
+2023-11-02 08:03:48,200 - INFO -  * Restarting with stat
+2023-11-02 08:03:49,922 - WARNING -  * Debugger is active!
+2023-11-02 08:03:49,928 - INFO -  * Debugger PIN: 690-219-022
+2023-11-02 08:04:04,020 - INFO - 127.0.0.1 - - [02/Nov/2023 08:04:04] "GET / HTTP/1.1" 200 -
+2023-11-02 08:04:04,225 - INFO - 127.0.0.1 - - [02/Nov/2023 08:04:04] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-11-02 08:04:14,027 - INFO - Extracted data: {'Hemoglobin': '11.9', 'White Blood Cell Count': '8360', 'Total Red Blood cell Count': '4.17', 'Platelet Count': '277000'}
+2023-11-02 08:04:14,027 - INFO - Data saved to CSV file: uploads\blood_report_blood_test.csv
+2023-11-02 08:04:14,027 - INFO - Conversion Complete - PDF data has been converted and saved to CSV.
+2023-11-02 08:04:15,111 - INFO - 127.0.0.1 - - [02/Nov/2023 08:04:15] "POST / HTTP/1.1" 200 -
+2023-11-02 08:04:15,315 - INFO - 127.0.0.1 - - [02/Nov/2023 08:04:15] "GET /static/Hemoglobin.png HTTP/1.1" 200 -
+2023-11-02 08:04:15,316 - INFO - 127.0.0.1 - - [02/Nov/2023 08:04:15] "GET /static/White%20Blood%20Cell%20Count.png HTTP/1.1" 200 -
+2023-11-02 08:04:15,349 - INFO - 127.0.0.1 - - [02/Nov/2023 08:04:15] "GET /static/Total%20Red%20Blood%20cell%20Count.png HTTP/1.1" 200 -
+2023-11-02 08:04:15,353 - INFO - 127.0.0.1 - - [02/Nov/2023 08:04:15] "GET /static/Platelet%20Count.png HTTP/1.1" 200 -
+2023-11-02 08:04:30,298 - INFO - 127.0.0.1 - - [02/Nov/2023 08:04:30] "GET / HTTP/1.1" 200 -
+2023-11-02 08:04:42,688 - INFO - Extracted data: {'ORF-1ab': 'NOT', 'N-gene': 'NOT', 'Conclusion': 'NEGATIVE'}
+2023-11-02 08:04:42,704 - INFO - Data saved to CSV file: uploads\TestReport_Covid_test.csv
+2023-11-02 08:04:42,704 - INFO - Conversion Complete - PDF data has been converted and saved to CSV.
+2023-11-02 08:04:42,733 - INFO - 127.0.0.1 - - [02/Nov/2023 08:04:42] "POST / HTTP/1.1" 200 -
+2023-11-02 08:04:42,749 - INFO - 127.0.0.1 - - [02/Nov/2023 08:04:42] "[36mGET /static/Hemoglobin.png HTTP/1.1[0m" 304 -
+2023-11-02 08:04:42,755 - INFO - 127.0.0.1 - - [02/Nov/2023 08:04:42] "[36mGET /static/White%20Blood%20Cell%20Count.png HTTP/1.1[0m" 304 -
+2023-11-02 08:04:42,807 - INFO - 127.0.0.1 - - [02/Nov/2023 08:04:42] "[36mGET /static/Total%20Red%20Blood%20cell%20Count.png HTTP/1.1[0m" 304 -
+2023-11-02 08:04:42,808 - INFO - 127.0.0.1 - - [02/Nov/2023 08:04:42] "[36mGET /static/Platelet%20Count.png HTTP/1.1[0m" 304 -
+2023-11-02 08:05:25,607 - INFO -  * Detected change in 'd:\\data\\sem5\\python\\himanshi\\app.py', reloading
+2023-11-02 08:05:26,987 - INFO -  * Restarting with stat
+2023-11-02 08:05:28,427 - WARNING -  * Debugger is active!
+2023-11-02 08:05:28,443 - INFO -  * Debugger PIN: 690-219-022
+2023-11-02 08:06:30,699 - INFO -  * Detected change in 'd:\\data\\sem5\\python\\himanshi\\app.py', reloading
+2023-11-02 08:06:30,833 - INFO -  * Restarting with stat
+2023-11-02 08:08:34,421 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-11-02 08:08:34,421 - INFO - [33mPress CTRL+C to quit[0m
+2023-11-02 08:08:34,424 - INFO -  * Restarting with stat
+2023-11-02 08:08:35,808 - WARNING -  * Debugger is active!
+2023-11-02 08:08:35,825 - INFO -  * Debugger PIN: 690-219-022
+2023-11-02 08:08:44,634 - INFO - 127.0.0.1 - - [02/Nov/2023 08:08:44] "GET / HTTP/1.1" 200 -
+2023-11-02 08:08:57,242 - INFO - Extracted data: {'ORF 1ab': 'NOT', 'N gene': 'NOT', 'Conclusion': 'NEGATIVE'}
+2023-11-02 08:08:57,245 - INFO - Data saved to CSV file: uploads\TestReport_Covid_test.csv
+2023-11-02 08:08:57,245 - INFO - Conversion Complete - PDF data has been converted and saved to CSV.
+2023-11-02 08:08:57,246 - INFO - 127.0.0.1 - - [02/Nov/2023 08:08:57] "POST / HTTP/1.1" 200 -
+2023-11-02 08:08:57,439 - INFO - 127.0.0.1 - - [02/Nov/2023 08:08:57] "[36mGET /static/Hemoglobin.png HTTP/1.1[0m" 304 -
+2023-11-02 08:08:57,449 - INFO - 127.0.0.1 - - [02/Nov/2023 08:08:57] "[36mGET /static/White%20Blood%20Cell%20Count.png HTTP/1.1[0m" 304 -
+2023-11-02 08:08:57,487 - INFO - 127.0.0.1 - - [02/Nov/2023 08:08:57] "[36mGET /static/Platelet%20Count.png HTTP/1.1[0m" 304 -
+2023-11-02 08:08:57,491 - INFO - 127.0.0.1 - - [02/Nov/2023 08:08:57] "[36mGET /static/Total%20Red%20Blood%20cell%20Count.png HTTP/1.1[0m" 304 -
+2023-11-02 08:13:23,238 - INFO -  * Detected change in 'd:\\data\\sem5\\python\\himanshi\\app.py', reloading
+2023-11-02 08:13:23,395 - INFO -  * Restarting with stat
+2023-11-02 08:15:03,848 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-11-02 08:15:03,849 - INFO - [33mPress CTRL+C to quit[0m
+2023-11-02 08:15:03,851 - INFO -  * Restarting with stat
+2023-11-02 08:15:05,865 - WARNING -  * Debugger is active!
+2023-11-02 08:15:05,872 - INFO -  * Debugger PIN: 690-219-022
+2023-11-02 08:15:10,494 - INFO - 127.0.0.1 - - [02/Nov/2023 08:15:10] "GET / HTTP/1.1" 200 -
+2023-11-02 08:15:19,216 - INFO - Extracted data: {'ORF 1ab': 'NOT', 'N gene': 'NOT', 'Conclusion': 'NEGATIVE'}
+2023-11-02 08:15:19,216 - INFO - Data saved to CSV file: uploads\TestReport_Covid_test.csv
+2023-11-02 08:15:19,216 - INFO - Conversion Complete - PDF data has been converted and saved to CSV.
+2023-11-02 08:15:19,232 - INFO - 127.0.0.1 - - [02/Nov/2023 08:15:19] "POST / HTTP/1.1" 200 -
+2023-11-02 08:15:19,416 - INFO - 127.0.0.1 - - [02/Nov/2023 08:15:19] "[36mGET /static/Hemoglobin.png HTTP/1.1[0m" 304 -
+2023-11-02 08:15:19,435 - INFO - 127.0.0.1 - - [02/Nov/2023 08:15:19] "[36mGET /static/White%20Blood%20Cell%20Count.png HTTP/1.1[0m" 304 -
+2023-11-02 08:15:19,478 - INFO - 127.0.0.1 - - [02/Nov/2023 08:15:19] "[36mGET /static/Platelet%20Count.png HTTP/1.1[0m" 304 -
+2023-11-02 08:15:19,484 - INFO - 127.0.0.1 - - [02/Nov/2023 08:15:19] "[36mGET /static/Total%20Red%20Blood%20cell%20Count.png HTTP/1.1[0m" 304 -
+2023-11-02 08:18:20,937 - INFO -  * Detected change in 'd:\\data\\sem5\\python\\himanshi\\app.py', reloading
+2023-11-02 08:18:21,088 - INFO -  * Restarting with stat
+2023-11-02 08:18:43,299 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-11-02 08:18:43,299 - INFO - [33mPress CTRL+C to quit[0m
+2023-11-02 08:18:43,300 - INFO -  * Restarting with stat
+2023-11-02 08:18:45,020 - WARNING -  * Debugger is active!
+2023-11-02 08:18:45,026 - INFO -  * Debugger PIN: 690-219-022
+2023-11-02 08:18:52,766 - INFO - 127.0.0.1 - - [02/Nov/2023 08:18:52] "GET / HTTP/1.1" 200 -
+2023-11-02 08:18:52,940 - INFO - 127.0.0.1 - - [02/Nov/2023 08:18:52] "[33mGET /background-image-url.jpg HTTP/1.1[0m" 404 -
+2023-11-02 08:19:05,874 - INFO - Extracted data: {'Hemoglobin': '11.9', 'White Blood Cell Count': '8360', 'Total Red Blood cell Count': '4.17', 'Platelet Count': '277000'}
+2023-11-02 08:19:05,876 - INFO - Data saved to CSV file: uploads\blood_report_blood_test.csv
+2023-11-02 08:19:05,876 - INFO - Conversion Complete - PDF data has been converted and saved to CSV.
+2023-11-02 08:19:06,849 - INFO - 127.0.0.1 - - [02/Nov/2023 08:19:06] "POST / HTTP/1.1" 200 -
+2023-11-02 08:19:07,031 - INFO - 127.0.0.1 - - [02/Nov/2023 08:19:07] "GET /static/White%20Blood%20Cell%20Count.png HTTP/1.1" 200 -
+2023-11-02 08:19:07,035 - INFO - 127.0.0.1 - - [02/Nov/2023 08:19:07] "GET /static/Hemoglobin.png HTTP/1.1" 200 -
+2023-11-02 08:19:07,079 - INFO - 127.0.0.1 - - [02/Nov/2023 08:19:07] "GET /static/Total%20Red%20Blood%20cell%20Count.png HTTP/1.1" 200 -
+2023-11-02 08:19:07,079 - INFO - 127.0.0.1 - - [02/Nov/2023 08:19:07] "GET /static/Platelet%20Count.png HTTP/1.1" 200 -
+2023-11-02 08:19:12,774 - INFO - 127.0.0.1 - - [02/Nov/2023 08:19:12] "GET / HTTP/1.1" 200 -
+2023-11-02 08:19:25,313 - INFO - Extracted data: {'ORF-1ab': 'NOT', 'N-gene': 'NOT', 'Conclusion': 'NEGATIVE'}
+2023-11-02 08:19:25,313 - INFO - Data saved to CSV file: uploads\TestReport_Covid_test.csv
+2023-11-02 08:19:25,313 - INFO - Conversion Complete - PDF data has been converted and saved to CSV.
+2023-11-02 08:19:25,347 - INFO - 127.0.0.1 - - [02/Nov/2023 08:19:25] "POST / HTTP/1.1" 200 -
+2023-11-02 08:19:25,380 - INFO - 127.0.0.1 - - [02/Nov/2023 08:19:25] "[36mGET /static/Hemoglobin.png HTTP/1.1[0m" 304 -
+2023-11-02 08:19:25,384 - INFO - 127.0.0.1 - - [02/Nov/2023 08:19:25] "[36mGET /static/White%20Blood%20Cell%20Count.png HTTP/1.1[0m" 304 -
+2023-11-02 08:19:25,447 - INFO - 127.0.0.1 - - [02/Nov/2023 08:19:25] "[36mGET /static/Total%20Red%20Blood%20cell%20Count.png HTTP/1.1[0m" 304 -
+2023-11-02 08:19:25,451 - INFO - 127.0.0.1 - - [02/Nov/2023 08:19:25] "[36mGET /static/Platelet%20Count.png HTTP/1.1[0m" 304 -
+2023-11-02 08:22:43,094 - INFO -  * Detected change in 'd:\\data\\sem5\\python\\himanshi\\app.py', reloading
+2023-11-02 08:22:44,351 - INFO -  * Restarting with stat
+2023-11-02 08:22:45,799 - WARNING -  * Debugger is active!
+2023-11-02 08:22:45,804 - INFO -  * Debugger PIN: 690-219-022
+2023-11-02 08:22:55,461 - INFO - Extracted data: {'ORF-1ab': 'NOT', 'N-gene': 'NOT', 'Conclusion': 'NEGATIVE'}
+2023-11-02 08:22:55,461 - INFO - Data saved to CSV file: uploads\TestReport_Covid_test.csv
+2023-11-02 08:22:55,461 - INFO - Conversion Complete - PDF data has been converted and saved to CSV.
+2023-11-02 08:22:55,506 - INFO - 127.0.0.1 - - [02/Nov/2023 08:22:55] "POST / HTTP/1.1" 200 -
+2023-11-02 08:22:55,524 - INFO - 127.0.0.1 - - [02/Nov/2023 08:22:55] "[33mGET /static/ORF1ab.png HTTP/1.1[0m" 404 -
+2023-11-02 08:22:55,527 - INFO - 127.0.0.1 - - [02/Nov/2023 08:22:55] "[33mGET /static/Ngene.png HTTP/1.1[0m" 404 -
+2023-11-02 08:22:55,577 - INFO - 127.0.0.1 - - [02/Nov/2023 08:22:55] "[33mGET /static/Conclusion.png HTTP/1.1[0m" 404 -
+2023-11-02 08:23:03,972 - INFO - 127.0.0.1 - - [02/Nov/2023 08:23:03] "GET / HTTP/1.1" 200 -
+2023-11-02 08:23:15,557 - INFO - Extracted data: {'ORF-1ab': 'NOT', 'N-gene': 'NOT', 'Conclusion': 'NEGATIVE'}
+2023-11-02 08:23:15,557 - INFO - Data saved to CSV file: uploads\TestReport_Covid_test.csv
+2023-11-02 08:23:15,557 - INFO - Conversion Complete - PDF data has been converted and saved to CSV.
+2023-11-02 08:23:15,574 - INFO - 127.0.0.1 - - [02/Nov/2023 08:23:15] "POST / HTTP/1.1" 200 -
+2023-11-02 08:23:15,595 - INFO - 127.0.0.1 - - [02/Nov/2023 08:23:15] "[33mGET /static/ORF1ab.png HTTP/1.1[0m" 404 -
+2023-11-02 08:23:15,595 - INFO - 127.0.0.1 - - [02/Nov/2023 08:23:15] "[33mGET /static/Ngene.png HTTP/1.1[0m" 404 -
+2023-11-02 08:23:15,650 - INFO - 127.0.0.1 - - [02/Nov/2023 08:23:15] "[33mGET /static/Conclusion.png HTTP/1.1[0m" 404 -
+2023-11-02 08:23:19,202 - INFO - 127.0.0.1 - - [02/Nov/2023 08:23:19] "GET / HTTP/1.1" 200 -
+2023-11-02 08:23:31,827 - INFO - Extracted data: {'Hemoglobin': '11.9', 'White Blood Cell Count': '8360', 'Total Red Blood cell Count': '4.17', 'Platelet Count': '277000'}
+2023-11-02 08:23:31,827 - INFO - Data saved to CSV file: uploads\blood_report_blood_test.csv
+2023-11-02 08:23:31,827 - INFO - Conversion Complete - PDF data has been converted and saved to CSV.
+2023-11-02 08:23:32,758 - INFO - 127.0.0.1 - - [02/Nov/2023 08:23:32] "POST / HTTP/1.1" 200 -
+2023-11-02 08:23:32,929 - INFO - 127.0.0.1 - - [02/Nov/2023 08:23:32] "GET /static/Hemoglobin.png HTTP/1.1" 200 -
+2023-11-02 08:23:32,930 - INFO - 127.0.0.1 - - [02/Nov/2023 08:23:32] "GET /static/White%20Blood%20Cell%20Count.png HTTP/1.1" 200 -
+2023-11-02 08:23:32,979 - INFO - 127.0.0.1 - - [02/Nov/2023 08:23:32] "GET /static/Platelet%20Count.png HTTP/1.1" 200 -
+2023-11-02 08:23:32,995 - INFO - 127.0.0.1 - - [02/Nov/2023 08:23:32] "GET /static/Total%20Red%20Blood%20cell%20Count.png HTTP/1.1" 200 -
+2023-11-02 08:26:01,359 - INFO - 127.0.0.1 - - [02/Nov/2023 08:26:01] "GET / HTTP/1.1" 200 -
+2023-11-02 08:26:02,582 - INFO - 127.0.0.1 - - [02/Nov/2023 08:26:02] "GET / HTTP/1.1" 200 -
+2023-11-02 08:26:02,641 - INFO - 127.0.0.1 - - [02/Nov/2023 08:26:02] "[33mGET /background-image-url.jpg HTTP/1.1[0m" 404 -
+2023-11-02 08:26:13,262 - INFO - Extracted data: {'ORF-1ab': 'NOT', 'N-gene': 'NOT', 'Conclusion': 'NEGATIVE'}
+2023-11-02 08:26:13,262 - INFO - Data saved to CSV file: uploads\TestReport_Covid_test.csv
+2023-11-02 08:26:13,262 - INFO - Conversion Complete - PDF data has been converted and saved to CSV.
+2023-11-02 08:26:13,296 - INFO - 127.0.0.1 - - [02/Nov/2023 08:26:13] "POST / HTTP/1.1" 200 -
+2023-11-02 08:26:13,324 - INFO - 127.0.0.1 - - [02/Nov/2023 08:26:13] "[33mGET /static/ORF1ab.png HTTP/1.1[0m" 404 -
+2023-11-02 08:26:13,325 - INFO - 127.0.0.1 - - [02/Nov/2023 08:26:13] "[33mGET /static/Ngene.png HTTP/1.1[0m" 404 -
+2023-11-02 08:26:13,386 - INFO - 127.0.0.1 - - [02/Nov/2023 08:26:13] "[33mGET /static/Conclusion.png HTTP/1.1[0m" 404 -
+2023-11-02 08:28:13,254 - INFO - Extracted data: {'ORF-1ab': 'NOT', 'N-gene': 'NOT', 'Conclusion': 'NEGATIVE'}
+2023-11-02 08:28:13,254 - INFO - Data saved to CSV file: uploads\TestReport_Covid_test.csv
+2023-11-02 08:28:13,254 - INFO - Conversion Complete - PDF data has been converted and saved to CSV.
+2023-11-02 08:28:13,307 - INFO - 127.0.0.1 - - [02/Nov/2023 08:28:13] "POST / HTTP/1.1" 200 -
+2023-11-02 08:28:13,324 - INFO - 127.0.0.1 - - [02/Nov/2023 08:28:13] "[33mGET /static/ORF1ab.png HTTP/1.1[0m" 404 -
+2023-11-02 08:28:13,328 - INFO - 127.0.0.1 - - [02/Nov/2023 08:28:13] "[33mGET /static/Ngene.png HTTP/1.1[0m" 404 -
+2023-11-02 08:28:13,377 - INFO - 127.0.0.1 - - [02/Nov/2023 08:28:13] "[33mGET /static/Conclusion.png HTTP/1.1[0m" 404 -
+2023-11-02 08:29:02,412 - INFO - Extracted data: {'ORF-1ab': 'NOT', 'N-gene': 'NOT', 'Conclusion': 'NEGATIVE'}
+2023-11-02 08:29:02,412 - INFO - Data saved to CSV file: uploads\TestReport_Covid_test.csv
+2023-11-02 08:29:02,412 - INFO - Conversion Complete - PDF data has been converted and saved to CSV.
+2023-11-02 08:29:02,514 - INFO - 127.0.0.1 - - [02/Nov/2023 08:29:02] "POST / HTTP/1.1" 200 -
+2023-11-02 08:30:41,880 - INFO - 127.0.0.1 - - [02/Nov/2023 08:30:41] "GET / HTTP/1.1" 200 -
+2023-11-02 08:30:43,323 - INFO - 127.0.0.1 - - [02/Nov/2023 08:30:43] "GET / HTTP/1.1" 200 -
+2023-11-02 08:30:43,387 - INFO - 127.0.0.1 - - [02/Nov/2023 08:30:43] "[33mGET /background-image-url.jpg HTTP/1.1[0m" 404 -
+2023-11-02 08:30:51,952 - INFO - Extracted data: {'Hemoglobin': '11.9', 'White Blood Cell Count': '8360', 'Total Red Blood cell Count': '4.17', 'Platelet Count': '277000'}
+2023-11-02 08:30:51,963 - INFO - Data saved to CSV file: uploads\blood_report_blood_test.csv
+2023-11-02 08:30:51,965 - INFO - Conversion Complete - PDF data has been converted and saved to CSV.
+2023-11-02 08:30:52,850 - INFO - 127.0.0.1 - - [02/Nov/2023 08:30:52] "POST / HTTP/1.1" 200 -
+2023-11-02 08:30:52,865 - INFO - 127.0.0.1 - - [02/Nov/2023 08:30:52] "GET /static/Hemoglobin.png HTTP/1.1" 200 -
+2023-11-02 08:30:52,877 - INFO - 127.0.0.1 - - [02/Nov/2023 08:30:52] "GET /static/White%20Blood%20Cell%20Count.png HTTP/1.1" 200 -
+2023-11-02 08:30:52,917 - INFO - 127.0.0.1 - - [02/Nov/2023 08:30:52] "GET /static/Total%20Red%20Blood%20cell%20Count.png HTTP/1.1" 200 -
+2023-11-02 08:30:52,919 - INFO - 127.0.0.1 - - [02/Nov/2023 08:30:52] "GET /static/Platelet%20Count.png HTTP/1.1" 200 -
+2023-11-02 08:31:43,133 - INFO - Extracted data: {'Hemoglobin': '11.9', 'White Blood Cell Count': '8360', 'Total Red Blood cell Count': '4.17', 'Platelet Count': '277000'}
+2023-11-02 08:31:43,133 - INFO - Data saved to CSV file: uploads\blood_report_blood_test.csv
+2023-11-02 08:31:43,133 - INFO - Conversion Complete - PDF data has been converted and saved to CSV.
+2023-11-02 08:31:44,043 - INFO - 127.0.0.1 - - [02/Nov/2023 08:31:44] "POST / HTTP/1.1" 200 -
+2023-11-02 08:31:44,058 - INFO - 127.0.0.1 - - [02/Nov/2023 08:31:44] "GET /static/Hemoglobin.png HTTP/1.1" 200 -
+2023-11-02 08:31:44,058 - INFO - 127.0.0.1 - - [02/Nov/2023 08:31:44] "GET /static/White%20Blood%20Cell%20Count.png HTTP/1.1" 200 -
+2023-11-02 08:31:44,115 - INFO - 127.0.0.1 - - [02/Nov/2023 08:31:44] "GET /static/Total%20Red%20Blood%20cell%20Count.png HTTP/1.1" 200 -
+2023-11-02 08:31:44,115 - INFO - 127.0.0.1 - - [02/Nov/2023 08:31:44] "GET /static/Platelet%20Count.png HTTP/1.1" 200 -
+2023-11-02 08:32:44,232 - INFO - Extracted data: {'Hemoglobin': '11.9', 'White Blood Cell Count': '8360', 'Total Red Blood cell Count': '4.17', 'Platelet Count': '277000'}
+2023-11-02 08:32:44,232 - INFO - Data saved to CSV file: uploads\blood_report_blood_test.csv
+2023-11-02 08:32:44,232 - INFO - Conversion Complete - PDF data has been converted and saved to CSV.
+2023-11-02 08:32:45,194 - INFO - 127.0.0.1 - - [02/Nov/2023 08:32:45] "POST / HTTP/1.1" 200 -
+2023-11-02 08:32:45,213 - INFO - 127.0.0.1 - - [02/Nov/2023 08:32:45] "GET /static/Hemoglobin.png HTTP/1.1" 200 -
+2023-11-02 08:32:45,214 - INFO - 127.0.0.1 - - [02/Nov/2023 08:32:45] "GET /static/White%20Blood%20Cell%20Count.png HTTP/1.1" 200 -
+2023-11-02 08:32:45,267 - INFO - 127.0.0.1 - - [02/Nov/2023 08:32:45] "GET /static/Total%20Red%20Blood%20cell%20Count.png HTTP/1.1" 200 -
+2023-11-02 08:32:45,268 - INFO - 127.0.0.1 - - [02/Nov/2023 08:32:45] "GET /static/Platelet%20Count.png HTTP/1.1" 200 -
+2023-11-02 08:37:00,874 - INFO - 127.0.0.1 - - [02/Nov/2023 08:37:00] "GET / HTTP/1.1" 200 -
+2023-11-02 08:37:02,931 - INFO - 127.0.0.1 - - [02/Nov/2023 08:37:02] "GET / HTTP/1.1" 200 -
+2023-11-02 08:37:02,987 - INFO - 127.0.0.1 - - [02/Nov/2023 08:37:02] "[33mGET /background-image-url.jpg HTTP/1.1[0m" 404 -
+2023-11-02 08:40:00,355 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-11-02 08:40:00,355 - INFO - [33mPress CTRL+C to quit[0m
+2023-11-02 08:40:00,355 - INFO -  * Restarting with stat
+2023-11-02 08:40:01,972 - WARNING -  * Debugger is active!
+2023-11-02 08:40:01,978 - INFO -  * Debugger PIN: 690-219-022
+2023-11-02 08:40:09,696 - INFO - 127.0.0.1 - - [02/Nov/2023 08:40:09] "GET / HTTP/1.1" 200 -
+2023-11-02 08:40:09,893 - INFO - 127.0.0.1 - - [02/Nov/2023 08:40:09] "[33mGET /background-image-url.jpg HTTP/1.1[0m" 404 -
+2023-11-02 08:40:22,984 - INFO - Extracted data: {'ORF-1ab': 'NOT', 'N-gene': 'NOT', 'Conclusion': 'NEGATIVE'}
+2023-11-02 08:40:22,986 - INFO - Data saved to CSV file: uploads\TestReport_Covid_test.csv
+2023-11-02 08:40:22,986 - INFO - Conversion Complete - PDF data has been converted and saved to CSV.
+2023-11-02 08:40:23,025 - INFO - 127.0.0.1 - - [02/Nov/2023 08:40:23] "POST / HTTP/1.1" 200 -
+2023-11-02 08:40:34,588 - INFO - 127.0.0.1 - - [02/Nov/2023 08:40:34] "GET / HTTP/1.1" 200 -
+2023-11-02 08:40:44,071 - INFO - Extracted data: {'Hemoglobin': '11.9', 'White Blood Cell Count': '8360', 'Total Red Blood cell Count': '4.17', 'Platelet Count': '277000'}
+2023-11-02 08:40:44,073 - INFO - Data saved to CSV file: uploads\blood_report_blood_test.csv
+2023-11-02 08:40:44,073 - INFO - Conversion Complete - PDF data has been converted and saved to CSV.
+2023-11-02 08:40:45,108 - INFO - 127.0.0.1 - - [02/Nov/2023 08:40:45] "POST / HTTP/1.1" 200 -
+2023-11-02 08:40:45,303 - INFO - 127.0.0.1 - - [02/Nov/2023 08:40:45] "GET /static/White%20Blood%20Cell%20Count.png HTTP/1.1" 200 -
+2023-11-02 08:40:45,305 - INFO - 127.0.0.1 - - [02/Nov/2023 08:40:45] "GET /static/Hemoglobin.png HTTP/1.1" 200 -
+2023-11-02 08:40:45,351 - INFO - 127.0.0.1 - - [02/Nov/2023 08:40:45] "GET /static/Total%20Red%20Blood%20cell%20Count.png HTTP/1.1" 200 -
+2023-11-02 08:40:45,356 - INFO - 127.0.0.1 - - [02/Nov/2023 08:40:45] "GET /static/Platelet%20Count.png HTTP/1.1" 200 -
+2023-11-02 08:42:09,752 - INFO - Extracted data: {'Hemoglobin': '11.9', 'White Blood Cell Count': '8360', 'Total Red Blood cell Count': '4.17', 'Platelet Count': '277000'}
+2023-11-02 08:42:09,768 - INFO - Data saved to CSV file: uploads\blood_report_blood_test.csv
+2023-11-02 08:42:09,768 - INFO - Conversion Complete - PDF data has been converted and saved to CSV.
+2023-11-02 08:42:10,832 - INFO - 127.0.0.1 - - [02/Nov/2023 08:42:10] "POST / HTTP/1.1" 200 -
+2023-11-02 08:42:10,848 - INFO - 127.0.0.1 - - [02/Nov/2023 08:42:10] "GET /static/Hemoglobin.png HTTP/1.1" 200 -
+2023-11-02 08:42:10,849 - INFO - 127.0.0.1 - - [02/Nov/2023 08:42:10] "GET /static/White%20Blood%20Cell%20Count.png HTTP/1.1" 200 -
+2023-11-02 08:42:10,896 - INFO - 127.0.0.1 - - [02/Nov/2023 08:42:10] "GET /static/Total%20Red%20Blood%20cell%20Count.png HTTP/1.1" 200 -
+2023-11-02 08:42:10,897 - INFO - 127.0.0.1 - - [02/Nov/2023 08:42:10] "GET /static/Platelet%20Count.png HTTP/1.1" 200 -
+2023-11-02 08:42:38,138 - INFO - Extracted data: {'Hemoglobin': '11.9', 'White Blood Cell Count': '8360', 'Total Red Blood cell Count': '4.17', 'Platelet Count': '277000'}
+2023-11-02 08:42:38,138 - INFO - Data saved to CSV file: uploads\blood_report_blood_test.csv
+2023-11-02 08:42:38,138 - INFO - Conversion Complete - PDF data has been converted and saved to CSV.
+2023-11-02 08:42:39,132 - INFO - 127.0.0.1 - - [02/Nov/2023 08:42:39] "POST / HTTP/1.1" 200 -
+2023-11-02 08:42:39,147 - INFO - 127.0.0.1 - - [02/Nov/2023 08:42:39] "GET /static/Hemoglobin.png HTTP/1.1" 200 -
+2023-11-02 08:42:39,147 - INFO - 127.0.0.1 - - [02/Nov/2023 08:42:39] "GET /static/White%20Blood%20Cell%20Count.png HTTP/1.1" 200 -
+2023-11-02 08:42:39,215 - INFO - 127.0.0.1 - - [02/Nov/2023 08:42:39] "GET /static/Total%20Red%20Blood%20cell%20Count.png HTTP/1.1" 200 -
+2023-11-02 08:42:39,216 - INFO - 127.0.0.1 - - [02/Nov/2023 08:42:39] "GET /static/Platelet%20Count.png HTTP/1.1" 200 -
+2023-11-02 09:14:17,703 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-11-02 09:14:17,703 - INFO - [33mPress CTRL+C to quit[0m
+2023-11-02 09:14:17,703 - INFO -  * Restarting with stat
+2023-11-02 09:14:19,773 - WARNING -  * Debugger is active!
+2023-11-02 09:14:19,789 - INFO -  * Debugger PIN: 690-219-022
+2023-11-02 09:15:07,269 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-11-02 09:15:07,269 - INFO - [33mPress CTRL+C to quit[0m
+2023-11-02 09:15:07,269 - INFO -  * Restarting with stat
+2023-11-02 09:15:09,843 - WARNING -  * Debugger is active!
+2023-11-02 09:15:09,855 - INFO -  * Debugger PIN: 690-219-022
+2023-11-02 09:15:18,042 - INFO - 127.0.0.1 - - [02/Nov/2023 09:15:18] "GET / HTTP/1.1" 200 -
+2023-11-02 09:15:18,440 - INFO - 127.0.0.1 - - [02/Nov/2023 09:15:18] "[33mGET /background-image-url.jpg HTTP/1.1[0m" 404 -
+2023-11-02 09:15:32,835 - INFO - Extracted data: {'Hemoglobin': '11.9', 'White Blood Cell Count': '8360', 'Total Red Blood cell Count': '4.17', 'Platelet Count': '277000'}
+2023-11-02 09:15:32,841 - INFO - Data saved to CSV file: uploads\blood_report_blood_test.csv
+2023-11-02 09:15:32,841 - INFO - Conversion Complete - PDF data has been converted and saved to CSV.
+2023-11-02 09:15:34,990 - INFO - 127.0.0.1 - - [02/Nov/2023 09:15:34] "POST / HTTP/1.1" 200 -
+2023-11-02 09:15:35,247 - INFO - 127.0.0.1 - - [02/Nov/2023 09:15:35] "GET /static/White%20Blood%20Cell%20Count.png HTTP/1.1" 200 -
+2023-11-02 09:15:35,256 - INFO - 127.0.0.1 - - [02/Nov/2023 09:15:35] "GET /static/Hemoglobin.png HTTP/1.1" 200 -
+2023-11-02 09:15:35,388 - INFO - 127.0.0.1 - - [02/Nov/2023 09:15:35] "GET /static/Platelet%20Count.png HTTP/1.1" 200 -
+2023-11-02 09:15:35,393 - INFO - 127.0.0.1 - - [02/Nov/2023 09:15:35] "GET /static/Total%20Red%20Blood%20cell%20Count.png HTTP/1.1" 200 -
+2023-11-02 09:16:02,537 - INFO - 127.0.0.1 - - [02/Nov/2023 09:16:02] "GET / HTTP/1.1" 200 -
+2023-11-02 09:16:13,096 - INFO - Extracted data: {'ORF-1ab': 'NOT', 'N-gene': 'NOT', 'Conclusion': 'NEGATIVE'}
+2023-11-02 09:16:13,098 - INFO - Data saved to CSV file: uploads\TestReport_Covid_test.csv
+2023-11-02 09:16:13,098 - INFO - Conversion Complete - PDF data has been converted and saved to CSV.
+2023-11-02 09:16:13,161 - INFO - 127.0.0.1 - - [02/Nov/2023 09:16:13] "POST / HTTP/1.1" 200 -
+2023-11-02 09:17:24,583 - INFO - 127.0.0.1 - - [02/Nov/2023 09:17:24] "GET / HTTP/1.1" 200 -
+2023-11-02 09:17:34,024 - INFO - Extracted data: {'Hemoglobin': '11.9', 'White Blood Cell Count': '8360', 'Total Red Blood cell Count': '4.17', 'Platelet Count': '277000'}
+2023-11-02 09:17:34,024 - INFO - Data saved to CSV file: uploads\blood_report_blood_test.csv
+2023-11-02 09:17:34,024 - INFO - Conversion Complete - PDF data has been converted and saved to CSV.
+2023-11-02 09:17:36,074 - INFO - 127.0.0.1 - - [02/Nov/2023 09:17:36] "POST / HTTP/1.1" 200 -
+2023-11-02 09:17:36,095 - INFO - 127.0.0.1 - - [02/Nov/2023 09:17:36] "GET /static/Hemoglobin.png HTTP/1.1" 200 -
+2023-11-02 09:17:36,095 - INFO - 127.0.0.1 - - [02/Nov/2023 09:17:36] "GET /static/White%20Blood%20Cell%20Count.png HTTP/1.1" 200 -
+2023-11-02 09:17:36,148 - INFO - 127.0.0.1 - - [02/Nov/2023 09:17:36] "GET /static/Total%20Red%20Blood%20cell%20Count.png HTTP/1.1" 200 -
+2023-11-02 09:17:36,153 - INFO - 127.0.0.1 - - [02/Nov/2023 09:17:36] "GET /static/Platelet%20Count.png HTTP/1.1" 200 -
+2023-11-02 09:19:29,965 - INFO - Extracted data: {'Hemoglobin': '11.9', 'White Blood Cell Count': '8360', 'Total Red Blood cell Count': '4.17', 'Platelet Count': '277000'}
+2023-11-02 09:19:29,965 - INFO - Data saved to CSV file: uploads\blood_report_blood_test.csv
+2023-11-02 09:19:29,973 - INFO - Conversion Complete - PDF data has been converted and saved to CSV.
+2023-11-02 09:19:32,072 - INFO - 127.0.0.1 - - [02/Nov/2023 09:19:32] "POST / HTTP/1.1" 200 -
+2023-11-02 09:19:32,103 - INFO - 127.0.0.1 - - [02/Nov/2023 09:19:32] "GET /static/Hemoglobin.png HTTP/1.1" 200 -
+2023-11-02 09:19:32,112 - INFO - 127.0.0.1 - - [02/Nov/2023 09:19:32] "GET /static/White%20Blood%20Cell%20Count.png HTTP/1.1" 200 -
+2023-11-02 09:19:32,221 - INFO - 127.0.0.1 - - [02/Nov/2023 09:19:32] "GET /static/Total%20Red%20Blood%20cell%20Count.png HTTP/1.1" 200 -
+2023-11-02 09:19:32,224 - INFO - 127.0.0.1 - - [02/Nov/2023 09:19:32] "GET /static/Platelet%20Count.png HTTP/1.1" 200 -
+2023-11-02 09:20:45,709 - INFO - 127.0.0.1 - - [02/Nov/2023 09:20:45] "GET / HTTP/1.1" 200 -
+2023-11-02 09:24:10,527 - INFO - Extracted data: {'Hemoglobin': '11.9', 'White Blood Cell Count': '8360', 'Total Red Blood cell Count': '4.17', 'Platelet Count': '277000'}
+2023-11-02 09:24:10,531 - INFO - Data saved to CSV file: uploads\blood_report_blood_test.csv
+2023-11-02 09:24:10,532 - INFO - Conversion Complete - PDF data has been converted and saved to CSV.
+2023-11-02 09:24:12,491 - INFO - 127.0.0.1 - - [02/Nov/2023 09:24:12] "POST / HTTP/1.1" 200 -
+2023-11-02 09:24:12,513 - INFO - 127.0.0.1 - - [02/Nov/2023 09:24:12] "GET /static/Hemoglobin.png HTTP/1.1" 200 -
+2023-11-02 09:24:12,515 - INFO - 127.0.0.1 - - [02/Nov/2023 09:24:12] "GET /static/White%20Blood%20Cell%20Count.png HTTP/1.1" 200 -
+2023-11-02 09:24:12,656 - INFO - 127.0.0.1 - - [02/Nov/2023 09:24:12] "GET /static/Total%20Red%20Blood%20cell%20Count.png HTTP/1.1" 200 -
+2023-11-02 09:24:12,656 - INFO - 127.0.0.1 - - [02/Nov/2023 09:24:12] "GET /static/Platelet%20Count.png HTTP/1.1" 200 -
+2023-11-02 09:24:31,174 - INFO - 127.0.0.1 - - [02/Nov/2023 09:24:31] "GET / HTTP/1.1" 200 -
+2023-11-02 09:24:42,555 - INFO - Extracted data: {'ORF-1ab': 'NOT', 'N-gene': 'NOT', 'Conclusion': 'NEGATIVE'}
+2023-11-02 09:24:42,561 - INFO - Data saved to CSV file: uploads\TestReport_Covid_test.csv
+2023-11-02 09:24:42,561 - INFO - Conversion Complete - PDF data has been converted and saved to CSV.
+2023-11-02 09:24:42,609 - INFO - 127.0.0.1 - - [02/Nov/2023 09:24:42] "POST / HTTP/1.1" 200 -
+2023-11-02 09:32:30,022 - INFO -  * Detected change in 'd:\\data\\sem5\\python\\himanshi\\app.py', reloading
+2023-11-02 09:32:31,466 - INFO -  * Restarting with stat
+2023-11-02 09:32:33,507 - WARNING -  * Debugger is active!
+2023-11-02 09:32:33,516 - INFO -  * Debugger PIN: 690-219-022
+2023-11-02 09:32:44,620 - INFO -  * Detected change in 'd:\\data\\sem5\\python\\himanshi\\app.py', reloading
+2023-11-02 09:32:44,911 - INFO -  * Restarting with stat
+2023-11-02 09:32:46,997 - WARNING -  * Debugger is active!
+2023-11-02 09:32:47,005 - INFO -  * Debugger PIN: 690-219-022
+2023-11-02 09:35:30,276 - INFO -  * Detected change in 'd:\\data\\sem5\\python\\himanshi\\app.py', reloading
+2023-11-02 09:35:30,491 - INFO -  * Restarting with stat
+2023-11-02 09:35:32,670 - WARNING -  * Debugger is active!
+2023-11-02 09:35:32,679 - INFO -  * Debugger PIN: 690-219-022
+2023-11-02 09:36:14,023 - INFO -  * Detected change in 'd:\\data\\sem5\\python\\himanshi\\app.py', reloading
+2023-11-02 09:36:14,229 - INFO -  * Restarting with stat
+2023-11-02 09:36:16,948 - WARNING -  * Debugger is active!
+2023-11-02 09:36:16,957 - INFO -  * Debugger PIN: 690-219-022
+2023-11-02 09:36:33,624 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-11-02 09:36:33,624 - INFO - [33mPress CTRL+C to quit[0m
+2023-11-02 09:36:33,624 - INFO -  * Restarting with stat
+2023-11-02 09:36:35,854 - WARNING -  * Debugger is active!
+2023-11-02 09:36:35,857 - INFO -  * Debugger PIN: 690-219-022
+2023-11-02 09:36:45,714 - INFO - 127.0.0.1 - - [02/Nov/2023 09:36:45] "GET / HTTP/1.1" 200 -
+2023-11-02 09:36:46,015 - INFO - 127.0.0.1 - - [02/Nov/2023 09:36:46] "[33mGET /background-image-url.jpg HTTP/1.1[0m" 404 -
+2023-11-02 09:37:02,938 - INFO - Extracted data: {'Hemoglobin': '11.9', 'White Blood Cell Count': '8360', 'Total Red Blood cell Count': '4.17', 'Platelet Count': '277000'}
+2023-11-02 09:37:02,946 - INFO - Data saved to CSV file: uploads\blood_report_blood_test.csv
+2023-11-02 09:37:02,947 - INFO - Conversion Complete - PDF data has been converted and saved to CSV.
+2023-11-02 09:38:38,856 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-11-02 09:38:38,856 - INFO - [33mPress CTRL+C to quit[0m
+2023-11-02 09:38:38,862 - INFO -  * Restarting with stat
+2023-11-02 09:38:41,470 - WARNING -  * Debugger is active!
+2023-11-02 09:38:41,471 - INFO -  * Debugger PIN: 690-219-022
+2023-11-02 09:38:44,846 - INFO - 127.0.0.1 - - [02/Nov/2023 09:38:44] "GET / HTTP/1.1" 200 -
+2023-11-02 09:38:45,121 - INFO - 127.0.0.1 - - [02/Nov/2023 09:38:45] "[33mGET /background-image-url.jpg HTTP/1.1[0m" 404 -
+2023-11-02 09:38:49,894 - INFO - 127.0.0.1 - - [02/Nov/2023 09:38:49] "GET / HTTP/1.1" 200 -
+2023-11-02 09:38:49,970 - INFO - 127.0.0.1 - - [02/Nov/2023 09:38:49] "[33mGET /background-image-url.jpg HTTP/1.1[0m" 404 -
+2023-11-02 09:38:59,918 - INFO - Extracted data: {'Hemoglobin': '11.9', 'White Blood Cell Count': '8360', 'Total Red Blood cell Count': '4.17', 'Platelet Count': '277000'}
+2023-11-02 09:38:59,925 - INFO - Data saved to CSV file: uploads\blood_report_blood_test.csv
+2023-11-02 09:38:59,925 - INFO - Conversion Complete - PDF data has been converted and saved to CSV.
+2023-11-02 09:39:02,018 - INFO - 127.0.0.1 - - [02/Nov/2023 09:39:02] "POST / HTTP/1.1" 200 -
+2023-11-02 09:39:02,286 - INFO - 127.0.0.1 - - [02/Nov/2023 09:39:02] "GET /static/White%20Blood%20Cell%20Count.png HTTP/1.1" 200 -
+2023-11-02 09:39:02,287 - INFO - 127.0.0.1 - - [02/Nov/2023 09:39:02] "GET /static/Hemoglobin.png HTTP/1.1" 200 -
+2023-11-02 09:39:02,369 - INFO - 127.0.0.1 - - [02/Nov/2023 09:39:02] "GET /static/Platelet%20Count.png HTTP/1.1" 200 -
+2023-11-02 09:39:02,370 - INFO - 127.0.0.1 - - [02/Nov/2023 09:39:02] "GET /static/Total%20Red%20Blood%20cell%20Count.png HTTP/1.1" 200 -
+2023-11-02 09:39:10,778 - INFO - 127.0.0.1 - - [02/Nov/2023 09:39:10] "GET / HTTP/1.1" 200 -
+2023-11-02 09:39:19,202 - INFO - Extracted data: {'ORF-1ab': 'NOT', 'N-gene': 'NOT', 'Conclusion': 'NEGATIVE'}
+2023-11-02 09:39:19,202 - INFO - Data saved to CSV file: uploads\TestReport_Covid_test.csv
+2023-11-02 09:39:19,202 - INFO - Conversion Complete - PDF data has been converted and saved to CSV.
+2023-11-02 09:39:19,273 - INFO - 127.0.0.1 - - [02/Nov/2023 09:39:19] "POST / HTTP/1.1" 200 -
+2023-11-02 09:50:42,969 - INFO -  * Detected change in 'd:\\data\\sem5\\python\\himanshi\\app.py', reloading
+2023-11-02 09:50:44,328 - INFO -  * Restarting with stat
+2023-11-02 09:50:47,495 - WARNING -  * Debugger is active!
+2023-11-02 09:50:47,503 - INFO -  * Debugger PIN: 690-219-022
+2023-11-02 09:51:51,970 - INFO -  * Detected change in 'd:\\data\\sem5\\python\\himanshi\\app.py', reloading
+2023-11-02 09:51:52,220 - INFO -  * Restarting with stat
+2023-11-02 09:51:54,736 - WARNING -  * Debugger is active!
+2023-11-02 09:51:54,736 - INFO -  * Debugger PIN: 690-219-022
+2023-11-02 09:52:32,121 - INFO -  * Detected change in 'd:\\data\\sem5\\python\\himanshi\\app.py', reloading
+2023-11-02 09:52:32,307 - INFO -  * Restarting with stat
+2023-11-02 09:52:34,950 - WARNING -  * Debugger is active!
+2023-11-02 09:52:34,950 - INFO -  * Debugger PIN: 690-219-022
+2023-11-02 09:52:39,886 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-11-02 09:52:39,886 - INFO - [33mPress CTRL+C to quit[0m
+2023-11-02 09:52:39,886 - INFO -  * Restarting with stat
+2023-11-02 09:52:41,966 - WARNING -  * Debugger is active!
+2023-11-02 09:52:41,972 - INFO -  * Debugger PIN: 690-219-022
+2023-11-02 09:52:49,172 - INFO - 127.0.0.1 - - [02/Nov/2023 09:52:49] "GET / HTTP/1.1" 200 -
+2023-11-02 09:52:49,515 - INFO - 127.0.0.1 - - [02/Nov/2023 09:52:49] "[33mGET /background-image-url.jpg HTTP/1.1[0m" 404 -
+2023-11-02 09:52:57,519 - INFO - Extracted data: {'ORF-1ab': 'NOT', 'N-gene': 'NOT', 'Conclusion': 'NEGATIVE'}
+2023-11-02 09:52:57,519 - INFO - Data saved to CSV file: uploads\TestReport_Covid_test.csv
+2023-11-02 09:52:57,519 - INFO - Conversion Complete - PDF data has been converted and saved to CSV.
+2023-11-02 09:52:57,591 - INFO - 127.0.0.1 - - [02/Nov/2023 09:52:57] "POST / HTTP/1.1" 200 -
+2023-11-02 09:53:06,877 - INFO - 127.0.0.1 - - [02/Nov/2023 09:53:06] "GET / HTTP/1.1" 200 -
+2023-11-02 09:53:16,673 - INFO - Extracted data: {'Hemoglobin': '11.9', 'White Blood Cell Count': '8360', 'Total Red Blood cell Count': '4.17', 'Platelet Count': '277000'}
+2023-11-02 09:53:16,682 - INFO - Data saved to CSV file: uploads\blood_report_blood_test.csv
+2023-11-02 09:53:16,682 - INFO - Conversion Complete - PDF data has been converted and saved to CSV.
+2023-11-02 09:53:18,932 - INFO - 127.0.0.1 - - [02/Nov/2023 09:53:18] "POST / HTTP/1.1" 200 -
+2023-11-02 09:53:19,159 - INFO - 127.0.0.1 - - [02/Nov/2023 09:53:19] "GET /static/Hemoglobin.png HTTP/1.1" 200 -
+2023-11-02 09:53:19,167 - INFO - 127.0.0.1 - - [02/Nov/2023 09:53:19] "GET /static/White%20Blood%20Cell%20Count.png HTTP/1.1" 200 -
+2023-11-02 09:53:19,239 - INFO - 127.0.0.1 - - [02/Nov/2023 09:53:19] "GET /static/Total%20Red%20Blood%20cell%20Count.png HTTP/1.1" 200 -
+2023-11-02 09:53:19,249 - INFO - 127.0.0.1 - - [02/Nov/2023 09:53:19] "GET /static/Platelet%20Count.png HTTP/1.1" 200 -
+2023-11-02 09:54:41,563 - INFO -  * Detected change in 'd:\\data\\sem5\\python\\himanshi\\app.py', reloading
+2023-11-02 09:54:42,943 - INFO -  * Restarting with stat
+2023-11-02 09:54:45,011 - WARNING -  * Debugger is active!
+2023-11-02 09:54:45,011 - INFO -  * Debugger PIN: 690-219-022
+2023-11-02 09:54:49,123 - INFO - 127.0.0.1 - - [02/Nov/2023 09:54:49] "GET / HTTP/1.1" 200 -
+2023-11-02 09:54:55,878 - INFO - 127.0.0.1 - - [02/Nov/2023 09:54:55] "GET / HTTP/1.1" 200 -
+2023-11-02 09:54:55,975 - INFO - 127.0.0.1 - - [02/Nov/2023 09:54:55] "[33mGET /background-image-url.jpg HTTP/1.1[0m" 404 -
+2023-11-02 09:55:10,071 - INFO - 127.0.0.1 - - [02/Nov/2023 09:55:10] "POST / HTTP/1.1" 200 -
+2023-11-02 09:55:10,145 - INFO - 127.0.0.1 - - [02/Nov/2023 09:55:10] "[33mGET /background-image-url.jpg HTTP/1.1[0m" 404 -
+2023-11-02 09:55:21,120 - INFO - 127.0.0.1 - - [02/Nov/2023 09:55:21] "POST / HTTP/1.1" 200 -
+2023-11-02 09:55:21,189 - INFO - 127.0.0.1 - - [02/Nov/2023 09:55:21] "[33mGET /background-image-url.jpg HTTP/1.1[0m" 404 -
+2023-11-02 09:55:47,491 - INFO -  * Detected change in 'd:\\data\\sem5\\python\\himanshi\\app.py', reloading
+2023-11-02 09:55:47,749 - INFO -  * Restarting with stat
+2023-11-02 09:55:49,879 - WARNING -  * Debugger is active!
+2023-11-02 09:55:49,879 - INFO -  * Debugger PIN: 690-219-022
+2023-11-02 09:57:10,895 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-11-02 09:57:10,895 - INFO - [33mPress CTRL+C to quit[0m
+2023-11-02 09:57:10,895 - INFO -  * Restarting with stat
+2023-11-02 09:57:13,307 - WARNING -  * Debugger is active!
+2023-11-02 09:57:13,320 - INFO -  * Debugger PIN: 690-219-022
+2023-11-02 09:57:17,444 - INFO - 127.0.0.1 - - [02/Nov/2023 09:57:17] "GET / HTTP/1.1" 200 -
+2023-11-02 09:57:17,771 - INFO - 127.0.0.1 - - [02/Nov/2023 09:57:17] "[33mGET /background-image-url.jpg HTTP/1.1[0m" 404 -
+2023-11-02 09:57:28,984 - INFO - Extracted data: {'Hemoglobin': '11.9', 'White Blood Cell Count': '8360', 'Total Red Blood cell Count': '4.17', 'Platelet Count': '277000'}
+2023-11-02 09:57:28,992 - INFO - Data saved to CSV file: uploads\blood_report_blood_test.csv
+2023-11-02 09:57:28,992 - INFO - Conversion Complete - PDF data has been converted and saved to CSV.
+2023-11-02 09:57:31,281 - INFO - 127.0.0.1 - - [02/Nov/2023 09:57:31] "POST / HTTP/1.1" 200 -
+2023-11-02 09:57:31,537 - INFO - 127.0.0.1 - - [02/Nov/2023 09:57:31] "GET /static/White%20Blood%20Cell%20Count.png HTTP/1.1" 200 -
+2023-11-02 09:57:31,545 - INFO - 127.0.0.1 - - [02/Nov/2023 09:57:31] "GET /static/Hemoglobin.png HTTP/1.1" 200 -
+2023-11-02 09:57:31,667 - INFO - 127.0.0.1 - - [02/Nov/2023 09:57:31] "GET /static/Total%20Red%20Blood%20cell%20Count.png HTTP/1.1" 200 -
+2023-11-02 09:57:31,678 - INFO - 127.0.0.1 - - [02/Nov/2023 09:57:31] "GET /static/Platelet%20Count.png HTTP/1.1" 200 -
+2023-11-02 09:57:40,159 - INFO - 127.0.0.1 - - [02/Nov/2023 09:57:40] "GET / HTTP/1.1" 200 -
+2023-11-02 09:57:52,654 - INFO - Extracted data: {'ORF-1ab': 'NOT', 'N-gene': 'NOT', 'Conclusion': 'NEGATIVE'}
+2023-11-02 09:57:52,659 - INFO - Data saved to CSV file: uploads\TestReport_Covid_test.csv
+2023-11-02 09:57:52,659 - INFO - Conversion Complete - PDF data has been converted and saved to CSV.
+2023-11-02 09:57:52,730 - INFO - 127.0.0.1 - - [02/Nov/2023 09:57:52] "POST / HTTP/1.1" 200 -
+2023-11-02 09:57:56,328 - INFO - 127.0.0.1 - - [02/Nov/2023 09:57:56] "GET / HTTP/1.1" 200 -
+2023-11-02 09:58:05,654 - INFO - 127.0.0.1 - - [02/Nov/2023 09:58:05] "POST / HTTP/1.1" 200 -
+2023-11-02 09:58:05,758 - INFO - 127.0.0.1 - - [02/Nov/2023 09:58:05] "[33mGET /background-image-url.jpg HTTP/1.1[0m" 404 -
+2023-11-02 09:58:17,755 - INFO - 127.0.0.1 - - [02/Nov/2023 09:58:17] "POST / HTTP/1.1" 200 -
+2023-11-02 09:58:17,835 - INFO - 127.0.0.1 - - [02/Nov/2023 09:58:17] "[33mGET /background-image-url.jpg HTTP/1.1[0m" 404 -
+2023-11-02 09:58:50,186 - INFO -  * Detected change in 'd:\\data\\sem5\\python\\himanshi\\app.py', reloading
+2023-11-02 09:58:51,597 - INFO -  * Restarting with stat
+2023-11-02 09:58:53,966 - WARNING -  * Debugger is active!
+2023-11-02 09:58:53,976 - INFO -  * Debugger PIN: 690-219-022
+2023-11-02 09:59:01,471 - INFO - Extracted data: {'Systolic BP': None, 'Diastolic BP': None, 'Pulse': None}
+2023-11-02 09:59:01,483 - INFO - Data saved to CSV file: uploads\blood_report_blood_pressure_test.csv
+2023-11-02 09:59:01,483 - INFO - Conversion Complete - PDF data has been converted and saved to CSV.
+2023-11-02 09:59:01,512 - INFO - 127.0.0.1 - - [02/Nov/2023 09:59:01] "POST / HTTP/1.1" 200 -
+2023-11-02 09:59:01,529 - INFO - 127.0.0.1 - - [02/Nov/2023 09:59:01] "[33mGET /static/SystolicBP.png HTTP/1.1[0m" 404 -
+2023-11-02 09:59:01,532 - INFO - 127.0.0.1 - - [02/Nov/2023 09:59:01] "[33mGET /static/DiastolicBP.png HTTP/1.1[0m" 404 -
+2023-11-02 09:59:01,595 - INFO - 127.0.0.1 - - [02/Nov/2023 09:59:01] "[33mGET /static/Pulse.png HTTP/1.1[0m" 404 -
+2023-11-02 10:01:58,779 - INFO -  * Detected change in 'd:\\data\\sem5\\python\\himanshi\\app.py', reloading
+2023-11-02 10:01:59,012 - INFO -  * Restarting with stat
+2023-11-02 10:02:01,382 - WARNING -  * Debugger is active!
+2023-11-02 10:02:01,389 - INFO -  * Debugger PIN: 690-219-022
+2023-11-02 10:02:14,616 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-11-02 10:02:14,616 - INFO - [33mPress CTRL+C to quit[0m
+2023-11-02 10:02:14,616 - INFO -  * Restarting with stat
+2023-11-02 10:02:16,883 - WARNING -  * Debugger is active!
+2023-11-02 10:02:16,883 - INFO -  * Debugger PIN: 690-219-022
+2023-11-02 10:02:23,326 - INFO - 127.0.0.1 - - [02/Nov/2023 10:02:23] "GET / HTTP/1.1" 200 -
+2023-11-02 10:02:23,634 - INFO - 127.0.0.1 - - [02/Nov/2023 10:02:23] "[33mGET /background-image-url.jpg HTTP/1.1[0m" 404 -
+2023-11-02 10:05:44,901 - INFO - 127.0.0.1 - - [02/Nov/2023 10:05:44] "GET / HTTP/1.1" 200 -
+2023-11-02 10:05:44,997 - INFO - 127.0.0.1 - - [02/Nov/2023 10:05:44] "[33mGET /background-image-url.jpg HTTP/1.1[0m" 404 -
+2023-11-02 10:05:54,727 - INFO - Extracted data: {'Hemoglobin': '11.9', 'White Blood Cell Count': '8360', 'Total Red Blood cell Count': '4.17', 'Platelet Count': '277000'}
+2023-11-02 10:05:54,733 - INFO - Data saved to CSV file: uploads\blood_report_blood_test.csv
+2023-11-02 10:05:54,733 - INFO - Conversion Complete - PDF data has been converted and saved to CSV.
+2023-11-02 10:05:56,742 - INFO - 127.0.0.1 - - [02/Nov/2023 10:05:56] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2023-11-02 10:05:56,942 - INFO - 127.0.0.1 - - [02/Nov/2023 10:05:56] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-11-02 10:05:56,942 - INFO - 127.0.0.1 - - [02/Nov/2023 10:05:56] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-11-02 10:05:57,053 - INFO - 127.0.0.1 - - [02/Nov/2023 10:05:57] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-11-02 10:05:57,084 - INFO - 127.0.0.1 - - [02/Nov/2023 10:05:57] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-11-02 10:07:05,471 - INFO -  * Detected change in 'd:\\data\\sem5\\python\\himanshi\\app.py', reloading
+2023-11-02 10:07:06,948 - INFO -  * Restarting with stat
+2023-11-02 10:07:09,600 - WARNING -  * Debugger is active!
+2023-11-02 10:07:09,600 - INFO -  * Debugger PIN: 690-219-022
+2023-11-02 10:07:11,575 - INFO - Extracted data: {'Hemoglobin': '11.9', 'White Blood Cell Count': '8360', 'Total Red Blood cell Count': '4.17', 'Platelet Count': '277000'}
+2023-11-02 10:07:11,575 - INFO - Data saved to CSV file: uploads\blood_report_blood_test.csv
+2023-11-02 10:07:11,575 - INFO - Conversion Complete - PDF data has been converted and saved to CSV.
+2023-11-02 10:07:13,428 - INFO - 127.0.0.1 - - [02/Nov/2023 10:07:13] "POST / HTTP/1.1" 200 -
+2023-11-02 10:07:13,726 - INFO - 127.0.0.1 - - [02/Nov/2023 10:07:13] "GET /static/White%20Blood%20Cell%20Count.png HTTP/1.1" 200 -
+2023-11-02 10:07:13,737 - INFO - 127.0.0.1 - - [02/Nov/2023 10:07:13] "GET /static/Hemoglobin.png HTTP/1.1" 200 -
+2023-11-02 10:07:13,797 - INFO - 127.0.0.1 - - [02/Nov/2023 10:07:13] "GET /static/Platelet%20Count.png HTTP/1.1" 200 -
+2023-11-02 10:07:13,801 - INFO - 127.0.0.1 - - [02/Nov/2023 10:07:13] "GET /static/Total%20Red%20Blood%20cell%20Count.png HTTP/1.1" 200 -
+2023-11-02 10:07:13,877 - INFO - 127.0.0.1 - - [02/Nov/2023 10:07:13] "GET / HTTP/1.1" 200 -
+2023-11-02 10:07:24,485 - INFO - Extracted data: {'Hemoglobin': '11.9', 'White Blood Cell Count': '8360', 'Total Red Blood cell Count': '4.17', 'Platelet Count': '277000'}
+2023-11-02 10:07:24,491 - INFO - Data saved to CSV file: uploads\blood_report_blood_test.csv
+2023-11-02 10:07:24,491 - INFO - Conversion Complete - PDF data has been converted and saved to CSV.
+2023-11-02 10:07:26,434 - INFO - 127.0.0.1 - - [02/Nov/2023 10:07:26] "POST / HTTP/1.1" 200 -
+2023-11-02 10:07:26,453 - INFO - 127.0.0.1 - - [02/Nov/2023 10:07:26] "GET /static/Hemoglobin.png HTTP/1.1" 200 -
+2023-11-02 10:07:26,453 - INFO - 127.0.0.1 - - [02/Nov/2023 10:07:26] "GET /static/White%20Blood%20Cell%20Count.png HTTP/1.1" 200 -
+2023-11-02 10:07:26,511 - INFO - 127.0.0.1 - - [02/Nov/2023 10:07:26] "GET /static/Total%20Red%20Blood%20cell%20Count.png HTTP/1.1" 200 -
+2023-11-02 10:07:26,511 - INFO - 127.0.0.1 - - [02/Nov/2023 10:07:26] "GET /static/Platelet%20Count.png HTTP/1.1" 200 -
+2023-11-02 10:07:33,508 - INFO - 127.0.0.1 - - [02/Nov/2023 10:07:33] "GET / HTTP/1.1" 200 -
+2023-11-02 10:07:42,371 - INFO - Extracted data: {'ORF-1ab': 'NOT', 'N-gene': 'NOT', 'Conclusion': 'NEGATIVE'}
+2023-11-02 10:07:42,385 - INFO - Data saved to CSV file: uploads\TestReport_Covid_test.csv
+2023-11-02 10:07:42,386 - INFO - Conversion Complete - PDF data has been converted and saved to CSV.
+2023-11-02 10:07:42,436 - INFO - 127.0.0.1 - - [02/Nov/2023 10:07:42] "POST / HTTP/1.1" 200 -
+2023-11-02 10:09:30,701 - INFO -  * Detected change in 'd:\\data\\sem5\\python\\himanshi\\app.py', reloading
+2023-11-02 10:09:32,201 - INFO -  * Restarting with stat
+2023-11-02 10:09:34,600 - WARNING -  * Debugger is active!
+2023-11-02 10:09:34,602 - INFO -  * Debugger PIN: 690-219-022
+2023-11-02 10:09:36,391 - INFO - Extracted data: {'ORF 1ab': 'NOT', 'N gene': 'NOT', 'Conclusion': 'NEGATIVE'}
+2023-11-02 10:09:36,391 - INFO - Data saved to CSV file: uploads\TestReport_Covid_test.csv
+2023-11-02 10:09:36,391 - INFO - Conversion Complete - PDF data has been converted and saved to CSV.
+2023-11-02 10:09:36,441 - INFO - 127.0.0.1 - - [02/Nov/2023 10:09:36] "POST / HTTP/1.1" 200 -
+2023-11-02 10:09:40,895 - INFO - 127.0.0.1 - - [02/Nov/2023 10:09:40] "GET / HTTP/1.1" 200 -
+2023-11-02 10:09:50,802 - INFO - Extracted data: {'Systolic BP': None, 'Diastolic BP': None, 'Pulse': None}
+2023-11-02 10:09:50,805 - INFO - Data saved to CSV file: uploads\blood_report_blood_pressure_test.csv
+2023-11-02 10:09:50,805 - INFO - Conversion Complete - PDF data has been converted and saved to CSV.
+2023-11-02 10:09:50,818 - INFO - 127.0.0.1 - - [02/Nov/2023 10:09:50] "POST / HTTP/1.1" 200 -
+2023-11-02 10:09:50,837 - INFO - 127.0.0.1 - - [02/Nov/2023 10:09:50] "[33mGET /static/SystolicBP.png HTTP/1.1[0m" 404 -
+2023-11-02 10:09:50,840 - INFO - 127.0.0.1 - - [02/Nov/2023 10:09:50] "[33mGET /static/DiastolicBP.png HTTP/1.1[0m" 404 -
+2023-11-02 10:09:50,893 - INFO - 127.0.0.1 - - [02/Nov/2023 10:09:50] "[33mGET /static/Pulse.png HTTP/1.1[0m" 404 -
+2023-11-02 10:10:54,323 - INFO -  * Detected change in 'd:\\data\\sem5\\python\\himanshi\\app.py', reloading
+2023-11-02 10:10:54,504 - INFO -  * Restarting with stat
+2023-11-02 10:10:57,176 - WARNING -  * Debugger is active!
+2023-11-02 10:10:57,183 - INFO -  * Debugger PIN: 690-219-022
+2023-11-02 10:11:02,275 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-11-02 10:11:02,275 - INFO - [33mPress CTRL+C to quit[0m
+2023-11-02 10:11:02,275 - INFO -  * Restarting with stat
+2023-11-02 10:11:04,999 - WARNING -  * Debugger is active!
+2023-11-02 10:11:05,007 - INFO -  * Debugger PIN: 690-219-022
+2023-11-02 10:11:09,659 - INFO - 127.0.0.1 - - [02/Nov/2023 10:11:09] "GET / HTTP/1.1" 200 -
+2023-11-02 10:11:09,998 - INFO - 127.0.0.1 - - [02/Nov/2023 10:11:09] "[33mGET /background-image-url.jpg HTTP/1.1[0m" 404 -
+2023-11-02 10:11:43,909 - INFO - Extracted data: {'Hemoglobin': '11.9', 'White Blood Cell Count': '8360', 'Total Red Blood cell Count': '4.17', 'Platelet Count': '277000'}
+2023-11-02 10:11:43,917 - INFO - Data saved to CSV file: uploads\blood_report_blood_test.csv
+2023-11-02 10:11:43,923 - INFO - Conversion Complete - PDF data has been converted and saved to CSV.
+2023-11-02 10:11:46,104 - INFO - 127.0.0.1 - - [02/Nov/2023 10:11:46] "POST / HTTP/1.1" 200 -
+2023-11-02 10:11:46,350 - INFO - 127.0.0.1 - - [02/Nov/2023 10:11:46] "GET /static/White%20Blood%20Cell%20Count.png HTTP/1.1" 200 -
+2023-11-02 10:11:46,369 - INFO - 127.0.0.1 - - [02/Nov/2023 10:11:46] "GET /static/Hemoglobin.png HTTP/1.1" 200 -
+2023-11-02 10:11:46,497 - INFO - 127.0.0.1 - - [02/Nov/2023 10:11:46] "GET /static/Total%20Red%20Blood%20cell%20Count.png HTTP/1.1" 200 -
+2023-11-02 10:11:46,503 - INFO - 127.0.0.1 - - [02/Nov/2023 10:11:46] "GET /static/Platelet%20Count.png HTTP/1.1" 200 -
+2023-11-02 10:12:13,032 - INFO - 127.0.0.1 - - [02/Nov/2023 10:12:13] "GET / HTTP/1.1" 200 -
+2023-11-02 10:12:40,259 - INFO - Extracted data: {'ORF 1ab': 'NOT', 'N gene': 'NOT', 'Conclusion': 'NEGATIVE'}
+2023-11-02 10:12:40,259 - INFO - Data saved to CSV file: uploads\TestReport_Covid_test.csv
+2023-11-02 10:12:40,267 - INFO - Conversion Complete - PDF data has been converted and saved to CSV.
+2023-11-02 10:12:40,291 - INFO - 127.0.0.1 - - [02/Nov/2023 10:12:40] "POST / HTTP/1.1" 200 -
+2023-11-02 10:12:57,224 - INFO - 127.0.0.1 - - [02/Nov/2023 10:12:57] "GET / HTTP/1.1" 200 -
+2023-11-02 10:21:02,723 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-11-02 10:21:02,723 - INFO - [33mPress CTRL+C to quit[0m
+2023-11-02 10:21:02,729 - INFO -  * Restarting with stat
+2023-11-02 10:21:04,514 - WARNING -  * Debugger is active!
+2023-11-02 10:21:04,529 - INFO -  * Debugger PIN: 690-219-022
+2023-11-02 10:21:17,181 - INFO - 127.0.0.1 - - [02/Nov/2023 10:21:17] "GET / HTTP/1.1" 200 -
+2023-11-02 10:21:17,397 - INFO - 127.0.0.1 - - [02/Nov/2023 10:21:17] "[33mGET /background-image-url.jpg HTTP/1.1[0m" 404 -
+2023-11-02 10:21:27,148 - INFO - Extracted data: {'ORF 1ab': 'NOT', 'N gene': 'NOT', 'Conclusion': 'NEGATIVE'}
+2023-11-02 10:21:27,159 - INFO - Data saved to CSV file: uploads\TestReport_Covid_test.csv
+2023-11-02 10:21:27,164 - INFO - Conversion Complete - PDF data has been converted and saved to CSV.
+2023-11-02 10:21:27,197 - INFO - 127.0.0.1 - - [02/Nov/2023 10:21:27] "POST / HTTP/1.1" 200 -
+2023-11-02 10:22:57,351 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-11-02 10:22:57,351 - INFO - [33mPress CTRL+C to quit[0m
+2023-11-02 10:22:57,351 - INFO -  * Restarting with stat
+2023-11-02 10:22:59,651 - WARNING -  * Debugger is active!
+2023-11-02 10:22:59,665 - INFO -  * Debugger PIN: 690-219-022
+2023-11-02 10:23:03,919 - INFO - 127.0.0.1 - - [02/Nov/2023 10:23:03] "GET / HTTP/1.1" 200 -
+2023-11-02 10:23:04,229 - INFO - 127.0.0.1 - - [02/Nov/2023 10:23:04] "[33mGET /background-image-url.jpg HTTP/1.1[0m" 404 -
+2023-11-02 10:23:12,438 - INFO - Extracted data: {'ORF 1ab': 'NOT', 'N gene': 'NOT', 'Conclusion': 'NEGATIVE'}
+2023-11-02 10:23:12,452 - INFO - Data saved to CSV file: uploads\TestReport_Covid_test.csv
+2023-11-02 10:23:12,452 - INFO - Conversion Complete - PDF data has been converted and saved to CSV.
+2023-11-02 10:23:12,484 - INFO - 127.0.0.1 - - [02/Nov/2023 10:23:12] "POST / HTTP/1.1" 200 -
+2023-11-02 10:33:30,341 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-11-02 10:33:30,341 - INFO - [33mPress CTRL+C to quit[0m
+2023-11-02 10:33:30,341 - INFO -  * Restarting with stat
+2023-11-02 10:33:32,925 - WARNING -  * Debugger is active!
+2023-11-02 10:33:32,934 - INFO -  * Debugger PIN: 690-219-022
+2023-11-02 10:33:37,200 - INFO - 127.0.0.1 - - [02/Nov/2023 10:33:37] "GET / HTTP/1.1" 200 -
+2023-11-02 10:33:37,518 - INFO - 127.0.0.1 - - [02/Nov/2023 10:33:37] "[33mGET /background-image-url.jpg HTTP/1.1[0m" 404 -
+2023-11-02 10:34:34,730 - INFO - Extracted data: {'Hemoglobin': '11.9', 'White Blood Cell Count': '8360', 'Total Red Blood cell Count': '4.17', 'Platelet Count': '277000'}
+2023-11-02 10:34:34,730 - INFO - Data saved to CSV file: uploads\blood_report_blood_test.csv
+2023-11-02 10:34:34,730 - INFO - Conversion Complete - PDF data has been converted and saved to CSV.
+2023-11-02 10:34:36,758 - INFO - 127.0.0.1 - - [02/Nov/2023 10:34:36] "POST / HTTP/1.1" 200 -
+2023-11-02 10:34:36,999 - INFO - 127.0.0.1 - - [02/Nov/2023 10:34:36] "GET /static/White%20Blood%20Cell%20Count.png HTTP/1.1" 200 -
+2023-11-02 10:34:37,007 - INFO - 127.0.0.1 - - [02/Nov/2023 10:34:37] "GET /static/Hemoglobin.png HTTP/1.1" 200 -
+2023-11-02 10:34:37,079 - INFO - 127.0.0.1 - - [02/Nov/2023 10:34:37] "GET /static/Total%20Red%20Blood%20cell%20Count.png HTTP/1.1" 200 -
+2023-11-02 10:34:37,079 - INFO - 127.0.0.1 - - [02/Nov/2023 10:34:37] "GET /static/Platelet%20Count.png HTTP/1.1" 200 -
+2023-11-02 10:35:13,061 - INFO - 127.0.0.1 - - [02/Nov/2023 10:35:13] "GET / HTTP/1.1" 200 -
+2023-11-02 10:36:13,068 - INFO - Extracted data: {'ORF 1ab': 'NOT', 'N gene': 'NOT', 'Conclusion': 'NEGATIVE'}
+2023-11-02 10:36:13,068 - INFO - Data saved to CSV file: uploads\TestReport_Covid_test.csv
+2023-11-02 10:36:13,068 - INFO - Conversion Complete - PDF data has been converted and saved to CSV.
+2023-11-02 10:36:13,114 - INFO - 127.0.0.1 - - [02/Nov/2023 10:36:13] "POST / HTTP/1.1" 200 -
+2023-11-02 10:37:18,221 - INFO - 127.0.0.1 - - [02/Nov/2023 10:37:18] "GET / HTTP/1.1" 200 -
+2023-11-02 10:38:23,461 - INFO - Extracted data: {'Hemoglobin': '12.6', 'White Blood Cell Count': '2290', 'Total Red Blood cell Count': '3.92', 'Platelet Count': '205000'}
+2023-11-02 10:38:23,640 - INFO - Extracted data: {'Hemoglobin': None, 'White Blood Cell Count': None, 'Total Red Blood cell Count': None, 'Platelet Count': None}
+2023-11-02 10:38:23,873 - INFO - Extracted data: {'Hemoglobin': None, 'White Blood Cell Count': None, 'Total Red Blood cell Count': None, 'Platelet Count': None}
+2023-11-02 10:38:24,225 - INFO - Data saved to CSV file: uploads\VIDHI_PARWANDA_110362_147462_blood_test.csv
+2023-11-02 10:38:24,225 - INFO - Conversion Complete - PDF data has been converted and saved to CSV.
+2023-11-02 10:38:24,265 - INFO - 127.0.0.1 - - [02/Nov/2023 10:38:24] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2023-11-02 10:38:24,300 - INFO - 127.0.0.1 - - [02/Nov/2023 10:38:24] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-11-02 10:38:24,301 - INFO - 127.0.0.1 - - [02/Nov/2023 10:38:24] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-11-02 10:38:24,535 - INFO - 127.0.0.1 - - [02/Nov/2023 10:38:24] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-11-02 10:38:24,566 - INFO - 127.0.0.1 - - [02/Nov/2023 10:38:24] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-11-02 10:38:57,284 - INFO - Extracted data: {'Hemoglobin': '12.6', 'White Blood Cell Count': '2290', 'Total Red Blood cell Count': '3.92', 'Platelet Count': '205000'}
+2023-11-02 10:38:57,519 - INFO - Extracted data: {'Hemoglobin': None, 'White Blood Cell Count': None, 'Total Red Blood cell Count': None, 'Platelet Count': None}
+2023-11-02 10:38:57,833 - INFO - Extracted data: {'Hemoglobin': None, 'White Blood Cell Count': None, 'Total Red Blood cell Count': None, 'Platelet Count': None}
+2023-11-02 10:38:57,841 - INFO - Data saved to CSV file: uploads\VIDHI_PARWANDA_110362_147462_blood_test.csv
+2023-11-02 10:38:57,841 - INFO - Conversion Complete - PDF data has been converted and saved to CSV.
+2023-11-02 10:38:57,866 - INFO - 127.0.0.1 - - [02/Nov/2023 10:38:57] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2023-11-02 10:38:57,923 - INFO - 127.0.0.1 - - [02/Nov/2023 10:38:57] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-11-02 10:38:57,923 - INFO - 127.0.0.1 - - [02/Nov/2023 10:38:57] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-11-02 10:38:58,014 - INFO - 127.0.0.1 - - [02/Nov/2023 10:38:58] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-11-02 10:38:58,034 - INFO - 127.0.0.1 - - [02/Nov/2023 10:38:58] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-11-02 10:39:38,045 - INFO - Extracted data: {'Hemoglobin': '12.6', 'White Blood Cell Count': '2290', 'Total Red Blood cell Count': '3.92', 'Platelet Count': '205000'}
+2023-11-02 10:39:38,181 - INFO - Extracted data: {'Hemoglobin': None, 'White Blood Cell Count': None, 'Total Red Blood cell Count': None, 'Platelet Count': None}
+2023-11-02 10:39:38,352 - INFO - Extracted data: {'Hemoglobin': None, 'White Blood Cell Count': None, 'Total Red Blood cell Count': None, 'Platelet Count': None}
+2023-11-02 10:39:38,362 - INFO - Data saved to CSV file: uploads\VIDHI_PARWANDA_110362_147462_blood_test.csv
+2023-11-02 10:39:38,362 - INFO - Conversion Complete - PDF data has been converted and saved to CSV.
+2023-11-02 10:39:38,384 - INFO - 127.0.0.1 - - [02/Nov/2023 10:39:38] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2023-11-02 10:39:38,420 - INFO - 127.0.0.1 - - [02/Nov/2023 10:39:38] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-11-02 10:39:38,421 - INFO - 127.0.0.1 - - [02/Nov/2023 10:39:38] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-11-02 10:39:38,539 - INFO - 127.0.0.1 - - [02/Nov/2023 10:39:38] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-11-02 10:39:38,563 - INFO - 127.0.0.1 - - [02/Nov/2023 10:39:38] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-11-02 10:41:35,779 - INFO - Extracted data: {'ORF 1ab': 'NOT', 'N gene': 'NOT', 'Conclusion': 'NEGATIVE'}
+2023-11-02 10:41:35,783 - INFO - Data saved to CSV file: uploads\TestReport_Covid_test.csv
+2023-11-02 10:41:35,783 - INFO - Conversion Complete - PDF data has been converted and saved to CSV.
+2023-11-02 10:41:35,799 - INFO - 127.0.0.1 - - [02/Nov/2023 10:41:35] "POST / HTTP/1.1" 200 -
+2023-11-02 10:42:20,354 - INFO - 127.0.0.1 - - [02/Nov/2023 10:42:20] "GET / HTTP/1.1" 200 -
+2023-11-02 10:42:29,720 - INFO - Extracted data: {'Hemoglobin': '11.9', 'White Blood Cell Count': '8360', 'Total Red Blood cell Count': '4.17', 'Platelet Count': '277000'}
+2023-11-02 10:42:29,728 - INFO - Data saved to CSV file: uploads\blood_report_blood_test.csv
+2023-11-02 10:42:29,728 - INFO - Conversion Complete - PDF data has been converted and saved to CSV.
+2023-11-02 10:42:31,685 - INFO - 127.0.0.1 - - [02/Nov/2023 10:42:31] "POST / HTTP/1.1" 200 -
+2023-11-02 10:43:33,644 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-11-02 10:43:33,644 - INFO - [33mPress CTRL+C to quit[0m
+2023-11-02 10:43:33,644 - INFO -  * Restarting with stat
+2023-11-02 10:43:35,712 - WARNING -  * Debugger is active!
+2023-11-02 10:43:35,712 - INFO -  * Debugger PIN: 690-219-022
+2023-11-02 10:47:30,737 - INFO - 127.0.0.1 - - [02/Nov/2023 10:47:30] "GET / HTTP/1.1" 200 -
+2023-11-02 10:47:30,885 - INFO - 127.0.0.1 - - [02/Nov/2023 10:47:30] "[33mGET /background-image-url.jpg HTTP/1.1[0m" 404 -
+2023-11-24 08:16:05,157 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-11-24 08:16:05,157 - INFO - [33mPress CTRL+C to quit[0m
+2023-11-24 08:16:05,157 - INFO -  * Restarting with stat
+2023-11-24 08:16:08,133 - WARNING -  * Debugger is active!
+2023-11-24 08:16:08,137 - INFO -  * Debugger PIN: 690-219-022
+2023-11-24 08:16:24,196 - INFO - 127.0.0.1 - - [24/Nov/2023 08:16:24] "GET / HTTP/1.1" 200 -
+2023-11-24 08:16:24,256 - INFO - 127.0.0.1 - - [24/Nov/2023 08:16:24] "[33mGET /background-image-url.jpg HTTP/1.1[0m" 404 -
+2023-11-24 08:17:03,705 - INFO - Extracted data: {'Hemoglobin': '11.9', 'White Blood Cell Count': '8360', 'Total Red Blood cell Count': '4.17', 'Platelet Count': '277000'}
+2023-11-24 08:17:03,729 - INFO - Data saved to CSV file: uploads\blood_report_blood_test.csv
+2023-11-24 08:17:03,729 - INFO - Conversion Complete - PDF data has been converted and saved to CSV.
+2023-11-24 08:17:14,434 - INFO - 127.0.0.1 - - [24/Nov/2023 08:17:14] "POST / HTTP/1.1" 200 -
+2023-11-24 08:17:14,955 - INFO - 127.0.0.1 - - [24/Nov/2023 08:17:14] "GET /static/Total%20Red%20Blood%20cell%20Count.png HTTP/1.1" 200 -
+2023-11-24 08:17:14,962 - INFO - 127.0.0.1 - - [24/Nov/2023 08:17:14] "GET /static/Hemoglobin.png HTTP/1.1" 200 -
+2023-11-24 08:17:14,985 - INFO - 127.0.0.1 - - [24/Nov/2023 08:17:14] "GET /static/White%20Blood%20Cell%20Count.png HTTP/1.1" 200 -
+2023-11-24 08:17:15,002 - INFO - 127.0.0.1 - - [24/Nov/2023 08:17:14] "GET /static/Platelet%20Count.png HTTP/1.1" 200 -
+2023-11-24 08:17:15,031 - INFO - 127.0.0.1 - - [24/Nov/2023 08:17:15] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-11-24 08:17:56,064 - INFO - 127.0.0.1 - - [24/Nov/2023 08:17:56] "GET / HTTP/1.1" 200 -
+2023-11-24 08:18:12,118 - INFO - Extracted data: {'ORF 1ab': 'NOT', 'N gene': 'NOT', 'Conclusion': 'NEGATIVE'}
+2023-11-24 08:18:12,118 - INFO - Data saved to CSV file: uploads\TestReport_Covid_test.csv
+2023-11-24 08:18:12,118 - INFO - Conversion Complete - PDF data has been converted and saved to CSV.
+2023-11-24 08:18:12,210 - INFO - 127.0.0.1 - - [24/Nov/2023 08:18:12] "POST / HTTP/1.1" 200 -
+2023-11-24 14:56:59,504 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-11-24 14:56:59,504 - INFO - [33mPress CTRL+C to quit[0m
+2023-11-24 14:56:59,504 - INFO -  * Restarting with stat
+2023-11-24 14:57:00,860 - WARNING -  * Debugger is active!
+2023-11-24 14:57:00,860 - INFO -  * Debugger PIN: 690-219-022
+2023-11-24 14:57:10,304 - INFO - 127.0.0.1 - - [24/Nov/2023 14:57:10] "GET / HTTP/1.1" 200 -
+2023-11-24 14:57:10,434 - INFO - 127.0.0.1 - - [24/Nov/2023 14:57:10] "[33mGET /background-image-url.jpg HTTP/1.1[0m" 404 -
+2023-11-24 15:03:28,642 - INFO - Extracted data: {'Hemoglobin': '11.9', 'White Blood Cell Count': '8360', 'Total Red Blood cell Count': '4.17', 'Platelet Count': '277000'}
+2023-11-24 15:03:28,650 - INFO - Data saved to CSV file: uploads\blood_report_blood_test.csv
+2023-11-24 15:03:28,650 - INFO - Conversion Complete - PDF data has been converted and saved to CSV.
+2023-11-24 15:03:35,441 - INFO - 127.0.0.1 - - [24/Nov/2023 15:03:35] "POST / HTTP/1.1" 200 -
+2023-11-24 15:03:35,911 - INFO - 127.0.0.1 - - [24/Nov/2023 15:03:35] "GET /static/Hemoglobin.png HTTP/1.1" 200 -
+2023-11-24 15:03:35,911 - INFO - 127.0.0.1 - - [24/Nov/2023 15:03:35] "GET /static/White%20Blood%20Cell%20Count.png HTTP/1.1" 200 -
+2023-11-24 15:03:36,004 - INFO - 127.0.0.1 - - [24/Nov/2023 15:03:36] "GET /static/Total%20Red%20Blood%20cell%20Count.png HTTP/1.1" 200 -
+2023-11-24 15:03:36,010 - INFO - 127.0.0.1 - - [24/Nov/2023 15:03:36] "GET /static/Platelet%20Count.png HTTP/1.1" 200 -
+2023-11-24 15:03:36,036 - INFO - 127.0.0.1 - - [24/Nov/2023 15:03:36] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-11-24 15:03:47,889 - INFO - 127.0.0.1 - - [24/Nov/2023 15:03:47] "GET / HTTP/1.1" 200 -
+2023-11-24 15:04:04,018 - INFO - Extracted data: {'ORF 1ab': 'NOT', 'N gene': 'NOT', 'Conclusion': 'NEGATIVE'}
+2023-11-24 15:04:04,026 - INFO - Data saved to CSV file: uploads\TestReport_Covid_test.csv
+2023-11-24 15:04:04,026 - INFO - Conversion Complete - PDF data has been converted and saved to CSV.
+2023-11-24 15:04:05,301 - INFO - 127.0.0.1 - - [24/Nov/2023 15:04:05] "POST / HTTP/1.1" 200 -
+2023-11-24 15:04:34,016 - INFO - 127.0.0.1 - - [24/Nov/2023 15:04:34] "GET / HTTP/1.1" 200 -
+2023-11-24 15:05:00,120 - INFO - Extracted data: {'Hemoglobin': '11.9', 'White Blood Cell Count': '8360', 'Total Red Blood cell Count': '4.17', 'Platelet Count': '277000'}
+2023-11-24 15:05:00,120 - INFO - Data saved to CSV file: uploads\blood_report_blood_test.csv
+2023-11-24 15:05:00,120 - INFO - Conversion Complete - PDF data has been converted and saved to CSV.
+2023-11-24 15:05:03,077 - INFO - 127.0.0.1 - - [24/Nov/2023 15:05:03] "POST / HTTP/1.1" 200 -
+2023-11-24 15:05:03,135 - INFO - 127.0.0.1 - - [24/Nov/2023 15:05:03] "GET /static/Hemoglobin.png HTTP/1.1" 200 -
+2023-11-24 15:05:03,137 - INFO - 127.0.0.1 - - [24/Nov/2023 15:05:03] "GET /static/White%20Blood%20Cell%20Count.png HTTP/1.1" 200 -
+2023-11-24 15:05:03,287 - INFO - 127.0.0.1 - - [24/Nov/2023 15:05:03] "GET /static/Total%20Red%20Blood%20cell%20Count.png HTTP/1.1" 200 -
+2023-11-24 15:05:03,292 - INFO - 127.0.0.1 - - [24/Nov/2023 15:05:03] "GET /static/Platelet%20Count.png HTTP/1.1" 200 -
+2023-11-24 15:05:25,610 - INFO - 127.0.0.1 - - [24/Nov/2023 15:05:25] "GET / HTTP/1.1" 200 -
+2023-11-24 15:10:33,403 - INFO - Extracted data: {'Hemoglobin': '12.6', 'White Blood Cell Count': '2290', 'Total Red Blood cell Count': '3.92', 'Platelet Count': '205000'}
+2023-11-24 15:10:33,893 - INFO - Extracted data: {'Hemoglobin': None, 'White Blood Cell Count': None, 'Total Red Blood cell Count': None, 'Platelet Count': None}
+2023-11-24 15:10:34,286 - INFO - Extracted data: {'Hemoglobin': None, 'White Blood Cell Count': None, 'Total Red Blood cell Count': None, 'Platelet Count': None}
+2023-11-24 15:10:37,836 - INFO - Data saved to CSV file: uploads\VIDHI_PARWANDA_110362_147462_blood_test.csv
+2023-11-24 15:10:37,840 - INFO - Conversion Complete - PDF data has been converted and saved to CSV.
+2023-11-24 15:10:41,076 - INFO - 127.0.0.1 - - [24/Nov/2023 15:10:41] "POST / HTTP/1.1" 200 -
+2023-11-24 15:10:41,121 - INFO - 127.0.0.1 - - [24/Nov/2023 15:10:41] "GET /static/Hemoglobin.png HTTP/1.1" 200 -
+2023-11-24 15:10:41,133 - INFO - 127.0.0.1 - - [24/Nov/2023 15:10:41] "GET /static/White%20Blood%20Cell%20Count.png HTTP/1.1" 200 -
+2023-11-24 15:10:41,315 - INFO - 127.0.0.1 - - [24/Nov/2023 15:10:41] "GET /static/Total%20Red%20Blood%20cell%20Count.png HTTP/1.1" 200 -
+2023-11-24 15:10:41,315 - INFO - 127.0.0.1 - - [24/Nov/2023 15:10:41] "GET /static/Platelet%20Count.png HTTP/1.1" 200 -
+2023-11-24 15:10:48,452 - INFO - 127.0.0.1 - - [24/Nov/2023 15:10:48] "GET / HTTP/1.1" 200 -
+2023-11-24 15:16:13,690 - INFO - Extracted data: {'Hemoglobin': '11.9', 'White Blood Cell Count': '8360', 'Total Red Blood cell Count': '4.17', 'Platelet Count': '277000'}
+2023-11-24 15:16:13,699 - INFO - Data saved to CSV file: uploads\blood_report_blood_test.csv
+2023-11-24 15:16:13,699 - INFO - Conversion Complete - PDF data has been converted and saved to CSV.
+2023-11-24 15:16:16,848 - INFO - 127.0.0.1 - - [24/Nov/2023 15:16:16] "POST / HTTP/1.1" 200 -
+2023-11-24 15:16:16,907 - INFO - 127.0.0.1 - - [24/Nov/2023 15:16:16] "GET /static/Hemoglobin.png HTTP/1.1" 200 -
+2023-11-24 15:16:16,907 - INFO - 127.0.0.1 - - [24/Nov/2023 15:16:16] "GET /static/White%20Blood%20Cell%20Count.png HTTP/1.1" 200 -
+2023-11-24 15:16:17,034 - INFO - 127.0.0.1 - - [24/Nov/2023 15:16:17] "GET /static/Total%20Red%20Blood%20cell%20Count.png HTTP/1.1" 200 -
+2023-11-24 15:16:17,034 - INFO - 127.0.0.1 - - [24/Nov/2023 15:16:17] "GET /static/Platelet%20Count.png HTTP/1.1" 200 -
+2024-04-02 20:51:24,118 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-04-02 20:51:24,131 - INFO - [33mPress CTRL+C to quit[0m
+2024-04-02 20:51:24,171 - INFO -  * Restarting with watchdog (windowsapi)
+2024-04-02 20:51:27,481 - WARNING -  * Debugger is active!
+2024-04-02 20:51:27,496 - INFO -  * Debugger PIN: 282-473-721

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Blood Pressure Result</title>
+
+  <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        h2 {
+            color: #444;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        p {
+            font-size: 16px;
+            color: #333;
+        }
+        a {
+            text-decoration: none;
+            color: #007BFF;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .visualization {
+            margin: 20px 0;
+        }
+        .visualization h3 {
+            margin-bottom: 10px;
+            color: #555;
+        }
+        .visualization img {
+            max-width: 100%;
+        }
+    </style>
+</head>
+<body>
+<h1>Blood Pressure Result</h1>
+
+<h2>Data</h2>
+<table class="table table-bordered">
+  <thead>
+  <tr>
+    <th scope="col">Systolic BP</th>
+    <th scope="col">Diastolic BP</th>
+    <th scope="col">Pulse</th>
+  </tr>
+  </thead>
+  <tbody>
+  {% if data is not none %}
+  {% for item in data %}
+  <tr>
+    <td>{{ item['Systolic BP'] }}</td>
+    <td>{{ item['Diastolic BP'] }}</td>
+    <td>{{ item['Pulse'] }}</td>
+  </tr>
+  {% endfor %}
+  {% else %}
+  <tr>
+    <td colspan="3">An error occurred during data processing. No data available.</td>
+  </tr>
+  {% endif %}
+  </tbody>
+</table>
+
+<h1>Result Page</h1>
+
+<!-- Display a link to download the CSV file -->
+<p><a href="{{ url_for('uploaded_file', filename=filename) }}">Download CSV</a></p>
+
+<!-- Display the visualizations -->
+<h2>Visualizations</h2>
+
+<div class="visualization">
+  <h3>Systolic BP Distribution</h3>
+  <img src="{{ url_for('static', filename='SystolicBP.png') }}" alt="Systolic BP Distribution">
+</div>
+
+<div class="visualization">
+  <h3>Diastolic BP Distribution</h3>
+  <img src="{{ url_for('static', filename='DiastolicBP.png') }}" alt="Diastolic BP Distribution">
+</div>
+
+<div class="visualization">
+  <h3>Pulse Distribution</h3>
+  <img src="{{ url_for('static', filename='Pulse.png') }}" alt="Pulse Distribution">
+</div>
+</body>
+</html>

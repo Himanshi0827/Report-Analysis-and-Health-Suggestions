@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Report Analyzer</title>
+    <link rel="icon" type="image/x-icon" href="https://www.example.com/covid-icon.png">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url("background-image-url.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            text-align: center;
+            padding: 20px;
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+        form {
+            background-color: #fff;
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        input[type="file"] {
+            display: none;
+        }
+        label {
+            background-color: #007BFF;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            display: block;
+            margin-bottom: 10px;
+        }
+        label:hover {
+            background-color: #0056b3;
+        }
+        select {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+        input[type="submit"] {
+            background-color: #007BFF;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+<h1>Report Analyzer</h1>
+<form method="POST" enctype="multipart/form-data">
+    <label for="pdf_file">
+        <span>Choose a Report (PDF)</span>
+        <input type="file" id="pdf_file" name="pdf_file" accept=".pdf" required onchange="updateFileName(this)">
+    </label>
+    <div id="selectedFileName" style="margin-top: 10px;"></div>
+
+    <label for="report_type">
+        <span>Select Report Type:</span>
+        <select name="report_type" required>
+            <option value="covid">COVID Report</option>
+            <option value="blood_test">Blood Test</option>
+            <option value="blood_pressure">Blood Pressure</option>
+        </select>
+    </label>
+    <input type="submit" value="Submit">
+</form>
+
+<script>
+    function updateFileName(input) {
+        document.getElementById('selectedFileName').innerText = input.files[0] ? "Selected File: " + input.files[0].name : "";
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Result</title>
+    <style>
+        /* Add your custom CSS styles here */
+        .table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        .table th, .table td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+        .table th {
+            background-color: #f2f2f2;
+        }
+        .visualization {
+            margin-bottom: 20px;
+        }
+        .visualization img {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">BLOOD TEST RESULT</h1>
+    <h1>Result</h1>
+    
+    <h1>Data</h1>
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">Hemoglobin</th>
+                <th scope="col">White Blood Cell Count</th>
+                <th scope="col">Total Red Blood cell Count</th>
+                <th scope="col">Platelet Count</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% if data is not none %}
+                {% for item in data %}
+                    <tr>
+                        <td>{{ item['Hemoglobin'] }}</td>
+                        <td>{{ item['White Blood Cell Count'] }}</td>
+                        <td>{{ item['Total Red Blood cell Count'] }}</td>
+                        <td>{{ item['Platelet Count'] }}</td>
+                    </tr>
+                {% endfor %}
+            {% else %}
+                <tr>
+                    <td colspan="4">An error occurred during PDF processing. No data available.</td>
+                </tr>
+            {% endif %}
+        </tbody>
+    </table>
+    
+
+    <h1>Suggestions</h1>
+    <table class="table">
+        <tr>
+            <th>Test</th>
+            <th>Value</th>
+            <th>Category</th>
+            <th>Effect</th>
+            <th>Suggestions</th>
+        </tr>
+        {% for test, details in suggestions.items() %}
+        <tr>
+            <td>{{ test }}</td>
+            <td>{{ details[0].Value }}</td>
+            <td>{{ details[0].Category }}</td>
+            <td>{{ details[0].Effect }}</td>
+            <td>{{ details[0].Suggestions }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+    <!-- <p>
+        {% if suggestions %}
+        {{ suggestions }}
+        {% else %}
+        No suggestions available.
+        {% endif %}
+    </p> -->
+
+     <!-- <h1>Result Page</h1>  -->
+    
+    <!-- Display a link to download the CSV file -->
+    <!-- <p><a href="{{ url_for('uploaded_file', filename=filename) }}">Download CSV</a></p> -->
+
+    <!-- Display the visualizations -->
+    <h1>Visualization</h1>
+    <div class="visualization">
+        <h3>Hemoglobin Distribution</h3>
+        <img src="{{ url_for('static', filename='Hemoglobin.png') }}" alt="Hemoglobin Distribution">
+    </div>
+
+    <div class="visualization">
+        <h3>White Blood Cell Count Distribution</h3>
+        <img src="{{ url_for('static', filename='White Blood Cell Count.png') }}" alt="White Blood Cell Count Distribution">
+    </div>
+
+    <div class="visualization">
+        <h3>Total Red Blood Cell Count Distribution</h3>
+        <img src="{{ url_for('static', filename='Total Red Blood cell Count.png') }}" alt="Total Red Blood Cell Count Distribution">
+    </div>
+
+    <div class="visualization">
+        <h3>Platelet Count Distribution</h3>
+        <img src="{{ url_for('static', filename='Platelet Count.png') }}" alt="Platelet Count Distribution">
+    </div>
+</body>
+</html>
